@@ -152,6 +152,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-5 h3{
 	font-size: 24px;
 }
+#bloc-13 p{
+	font-size: 16px;
+	line-height: 20px;
+}
 
 /* = NavBar
 -------------------------------------------------------------- */
