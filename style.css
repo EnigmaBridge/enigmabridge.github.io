@@ -143,11 +143,18 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
+#bloc-1 h2{
+	line-height: 60px;
+	font-size: 44px;
+}
 #bloc-1 p{
 	font-size: 17px;
 }
 #bloc-2 h3{
 	font-size: 20px;
+}
+#bloc-4 h3{
+	font-size: 22px;
 }
 #bloc-5 h3{
 	font-size: 24px;
@@ -574,6 +581,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-white:hover{
 	color:#ffffff!important;
+}
+/* Icon colour styles */
+
+.icon-white{
+	color:#ffffff!important;
+	border-color:#ffffff!important;
 }
 
 /* Bloc image backgrounds */
