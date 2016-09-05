@@ -544,13 +544,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-white{
 	background-color:#ffffff;
 }
-.bgc-outer-space{
-	background-color:#47454B;
-}
 /* Text colour styles */
 
-.tc-outer-space{
-	color:#47454B!important;
+.bgc-lg{
+	background-color:#01A7D7;
 }
 .tc-rich-electric-blue{
 	color:#00A7D7!important;
