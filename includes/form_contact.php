@@ -8,14 +8,14 @@
 	$email = $_POST['email'];
 	$message = $_POST['message'];
 	
-	$to = 'receiver@yoursite.com'; // Email submissions are sent to this email
+	$to = 'contact@enigmabridge.com'; // Email submissions are sent to this email
 
 	// Create email	
 	$email_subject = "Message from EB-webSite.";
 	$email_body = "You have received a new message. \n\n".
 				  "Name: $name \nEmail: $email \nMessage: $message \n";
 	$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
-	$headers .= "From: contact@yoursite.com\n";
+	$headers .= "From: info@enigmabridge.com\n";
 	$headers .= "Reply-To: $email";	
 	
 	mail($to,$email_subject,$email_body,$headers); // Post message

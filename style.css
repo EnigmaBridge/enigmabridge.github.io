@@ -134,6 +134,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Row Margin Offsets */
 
+.voffset{
+	margin-top:30px;
+}
 .voffset-lg{
 	margin-top:80px;
 }
@@ -350,6 +353,16 @@ button{
 	min-width: 162px;
 }
 
+/*  Rounded Image */
+.img-rd{
+	border-radius:6px;
+}
+.img-rd-md{
+	border-radius:20px;
+}
+.img-rd-lg{
+	border-radius:34px;
+}
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
@@ -525,8 +538,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 /* Text colour styles */
 
+.tc-outer-space{
+	color:#47454B!important;
+}
 .tc-rich-electric-blue{
 	color:#00A7D7!important;
+}
+.tc-white{
+	color:#ffffff!important;
 }
 /* Button colour styles */
 
@@ -537,6 +556,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-rich-electric-blue:hover{
 	background:#0086ac;
 	color:#FFFFFF!important;
+}
+/* Link colour styles */
+
+.ltc-rich-electric-blue{
+	color:#00A7D7!important;
+}
+.ltc-rich-electric-blue:hover{
+	color:#0086ac!important;
+}
+.ltc-white{
+	color:#ffffff!important;
+}
+.ltc-white:hover{
+	color:#ffffff!important;
 }
 
 /* Bloc image backgrounds */
