@@ -541,6 +541,21 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
+.bg-lake{
+	background-image:url("img/lake.jpg");
+}
+.bg-tracks{
+	background-image:url("img/tracks.jpg");
+}
+.bg-mountains-italy{
+	background-image:url("img/mountains-italy.jpg");
+}
+.bg-enigma2{
+	background-image:url("img/enigma2.jpg");
+}
+.bg-enigma{
+	background-image:url("img/enigma.jpg");
+}
 
 
 
@@ -557,7 +572,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
         padding-right: 0;  
     }
 }
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {.b-parallax{background-attachment:scroll;}}
 @media (max-width: 768px)
 {
     .container{width:100%;}
@@ -705,7 +719,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
         margin-top: 0;
         margin-bottom: 0;
     }
-    .video-bg-container{
+    .video-bg-contianer{
         display:none;
     }
     .blocsapp-device-iphone5{
