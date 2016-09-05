@@ -472,7 +472,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Helvetica";
 }
 .container{
-	max-width:1170px;
+	max-width:960px;
 }
 .hero-bloc-text{
 	font-size:55px;
