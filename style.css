@@ -544,13 +544,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-white{
 	background-color:#ffffff;
 }
-.bgc-dark-jungle-green{
-	background-color:#1E1E1E;
+.bgc-outer-space{
+	background-color:#474747;
 }
 /* Text colour styles */
 
-.bgc-lg{
-	background-color:#01A7D7;
+.tc-outer-space{
+	color:#474747!important;
 }
 .tc-rich-electric-blue{
 	color:#00A7D7!important;
