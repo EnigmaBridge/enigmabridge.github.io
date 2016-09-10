@@ -52,6 +52,89 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	padding:20px 50px;
 }
 
+/* = Full Screen Blocs 
+-------------------------------------------------------------- */
+
+.bloc-fill-screen{
+	padding-top:0;
+	position: relative;
+	height: inherit;
+}
+.bloc-fill-screen > .container{
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+}
+.bloc-fill-screen.bloc-group .bloc{
+	vertical-align: middle!important;
+}
+.bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge{
+	position: absolute;
+	margin: 20px auto;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	transform: none;
+}
+.bloc-fill-screen .fill-bloc-top-edge{
+	top:0;
+}
+.bloc-fill-screen .fill-bloc-bottom-edge{
+	top: initial;
+	bottom: 20px;
+}
+.blocs-hero-btn-dwn{
+	width: 58px;
+	height: 58px;
+	display: block;
+	margin:0 auto;
+	line-height: 58px;
+	padding: 0;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 18px;
+	color: rgba(255,255,255,.8);
+	background: rgba(0,0,0,.6);
+	border:0;
+}
+.blocs-hero-btn-dwn:hover{
+	color: rgba(255,255,255,1);
+}
+
+
+/* Group Styles */
+
+.bloc-group{
+	width:100%;
+	display:table;
+	table-layout: fixed;
+}
+.bloc-group .bloc{
+	position:relative;
+	display: table-cell;
+	vertical-align: top;
+}
+.bloc-tile-2{
+	width:50%;
+}
+.bloc-tile-3{
+	width:33.33333333%;
+}
+.bloc-tile-4{
+	width:25%;
+}
+.bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
+	width:100%;
+}
+
+
+/* Background Effects */
+
+.b-parallax{
+	background-attachment:fixed;
+}
+
 
 /* Dark theme */
 
@@ -162,6 +245,17 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-13 p{
 	font-size: 16px;
 	line-height: 20px;
+}
+#bloc-16 p{
+	font-size: 18px;
+	line-height: 25px;
+}
+#bloc-19 p{
+	font-size: 18px;
+	line-height: 25px;
+}
+#bloc-20 p{
+	font-size: 16px;
 }
 
 /* = NavBar
@@ -321,6 +415,20 @@ button{
 	outline: none!important;
 }
 
+.btn-glossy{
+	border:1px solid rgba(0,0,0,.09);
+	border-bottom-color:rgba(0,0,0,.2);
+	text-shadow:0 1px 0 rgba(0,0,1,.2);
+	box-shadow: 0 1px 3px rgba(0,0,1,.35), inset 0 1px 0 0 rgba(255,255,255,.4), inset 0 1px 0 2px rgba(255,255,255,.08);
+	background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
+	 background-image: -o-linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
+	background-image: linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
+}
+.btn-xl{
+	padding: 16px 40px;
+	font-size: 28px;
+}
 .a-btn{
 	padding: 6px 10px 6px 0;
 	line-height: 1.42857143;
@@ -413,6 +521,22 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
 
 /* = Forms
 -------------------------------------------------------------- */
@@ -547,6 +671,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-outer-space{
 	background-color:#474747;
 }
+.bgc-rich-electric-blue{
+	background-color:#00A7D7;
+}
 /* Text colour styles */
 
 .tc-outer-space{
@@ -557,6 +684,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-white{
 	color:#ffffff!important;
+}
+.tc-dark-jungle-green{
+	color:#1E1E1E!important;
 }
 /* Button colour styles */
 
@@ -609,6 +739,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-enigma{
 	background-image:url("img/enigma.jpg");
+}
+.bg-bigstock-woman-hand-holding-an-old-door-98401496-3-bright{
+	background-image:url('img/bigstock-woman-hand-holding-an-old-door-98401496_3_bright.jpg');
+}
+.bg-bigstock-Future-technology-Touch-butto-99366956-min-bright{
+	background-image:url('img/bigstock-Future-technology-Touch-butto-99366956-min_bright.jpg');
+}
+.bg-s3x-0769-911-small{
+	background-image:url('img/s3x-0769-911_small.jpg');
 }
 
 
