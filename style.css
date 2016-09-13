@@ -257,6 +257,14 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-20 p{
 	font-size: 16px;
 }
+#bloc-22 h1{
+	font-size: 44px;
+	line-height: 48px;
+}
+#bloc-23 p{
+	font-size: 14px;
+	line-height: 20px;
+}
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -415,6 +423,12 @@ button{
 	outline: none!important;
 }
 
+.btn-clean{
+	border:1px solid rgba(0,0,0,.08);
+	border-bottom-color:rgba(0,0,0,.1);
+	text-shadow:0 1px 0 rgba(0,0,1,.1);
+	box-shadow: 0 1px 3px rgba(0,0,1,.25), inset 0 1px 0 0 rgba(255,255,255,.15);
+}
 .btn-glossy{
 	border:1px solid rgba(0,0,0,.09);
 	border-bottom-color:rgba(0,0,0,.2);
@@ -424,6 +438,14 @@ button{
 	 background-image: -o-linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
 	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
 	background-image: linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
+}
+.btn-wire{
+	background:transparent!important;
+	border:2px solid transparent;
+}
+.btn-wire:hover{
+	background:transparent!important;
+	border:2px solid transparent;
 }
 .btn-xl{
 	padding: 16px 40px;
@@ -659,6 +681,21 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .mb-bloc-text-vc{
 	font-size:50px;
 }
+.mount-italy-hero-text-s{
+	font-size:60px;
+}
+.mount-italy-hero-text-sub-s{
+	font-size:34px;
+}
+.hero-text-vc{
+	margin-top:50%;
+}
+.lake-hero-text-s{
+	font-size:60px;
+}
+.lake-hero-text-sub-s{
+	font-size:34px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -748,6 +785,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-s3x-0769-911-small{
 	background-image:url("img/s3x-0769-911_small.jpg");
+}
+.bg-main-picture3-cropped{
+	background-image:url("img/main-picture3_cropped.jpg");
+}
+.bg-main-picture3-light{
+	background-image:url("img/main-picture3_light.jpg");
+}
+.bg-6876577137-10a7247d6b-o-min{
+	background-image:url("img/6876577137_10a7247d6b_o-min.jpg");
+}
+.bg-main-picture3{
+	background-image:url("img/main-picture3.jpg");
+}
+.bg-s3x-0769-911-small{
+	background-image:url("img/s3x-0769-911_small.jpg");
+}
+.bg-Screen-Shot-2016-08-27-at-10-17-15{
+	background-image:url('img/Screen%20Shot%202016-08-27%20at%2010.17.15.png');
 }
 
 
