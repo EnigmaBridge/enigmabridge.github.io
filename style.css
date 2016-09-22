@@ -15,7 +15,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 
-#page-loading-blocs-notifaction{position: absolute;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;}
+#page-loading-blocs-notifaction{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;}
 
 /* = Blocs
 -------------------------------------------------------------- */
@@ -615,7 +615,7 @@ iframe{
 -------------------------------------------------------------- */
 
 .mb-space-grey{
-	background-image:url("./img/Apple-Macbook-Space-Grey.png");
+	background-image:url("img/Apple-Macbook-Space-Grey.png");
 }
 
 /* = Custom Styling
@@ -762,21 +762,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
-.bg-lake{
-	background-image:url("img/lake.jpg");
-}
-.bg-tracks{
-	background-image:url("img/tracks.jpg");
-}
-.bg-mountains-italy{
-	background-image:url("img/mountains-italy.jpg");
-}
-.bg-enigma2{
-	background-image:url("img/enigma2.jpg");
-}
-.bg-enigma{
-	background-image:url("img/enigma.jpg");
-}
 .bg-bigstock-woman-hand-holding-an-old-door-98401496-3-bright{
 	background-image:url("img/bigstock-woman-hand-holding-an-old-door-98401496_3_bright.jpg");
 }
@@ -786,23 +771,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-s3x-0769-911-small{
 	background-image:url("img/s3x-0769-911_small.jpg");
 }
-.bg-main-picture3-cropped{
-	background-image:url("img/main-picture3_cropped.jpg");
-}
-.bg-main-picture3-light{
-	background-image:url("img/main-picture3_light.jpg");
-}
-.bg-6876577137-10a7247d6b-o-min{
-	background-image:url("img/6876577137_10a7247d6b_o-min.jpg");
-}
-.bg-main-picture3{
-	background-image:url("img/main-picture3.jpg");
-}
 .bg-s3x-0769-911-small{
 	background-image:url("img/s3x-0769-911_small.jpg");
 }
 .bg-Screen-Shot-2016-08-27-at-10-17-15{
-	background-image:url('img/Screen%20Shot%202016-08-27%20at%2010.17.15.png');
+	background-image:url("img/Screen%20Shot%202016-08-27%20at%2010.17.15.png");
 }
 
 
@@ -820,6 +793,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
         padding-right: 0;  
     }
 }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {.b-parallax{background-attachment:scroll;}}
 @media (max-width: 768px)
 {
     .container{width:100%;}
@@ -832,7 +806,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
         overflow-x: hidden;
         position:relative;
     }
-    h1,h2,h3,h4,h5,h6,p{
+    h1,h2,h3,h4,h5,h6,p,#disqus_thread{
         padding-left:10px!important; 
         padding-right:10px!important; 
     }
@@ -958,16 +932,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     .close-lightbox{
         display:inline-block;
     }
- 
-    .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-.full-width-bloc .col-xs-2, .full-width-bloc .col-sm-2, .full-width-bloc .col-md-2, .full-width-bloc .col-lg-2, .full-width-bloc .col-xs-3, .full-width-bloc .col-sm-3, .full-width-bloc .col-md-3, .full-width-bloc .col-lg-3, .full-width-bloc .col-xs-4, .full-width-bloc .col-sm-4, .full-width-bloc .col-md-4, .full-width-bloc .col-lg-4, .full-width-bloc .col-xs-5, .full-width-bloc .col-sm-5, .full-width-bloc .col-md-5, .full-width-bloc .col-lg-5, .full-width-bloc .col-xs-6, .full-width-bloc .col-sm-6, .full-width-bloc .col-md-6, .full-width-bloc .col-lg-6, .full-width-bloc .col-xs-7, .full-width-bloc .col-sm-7, .full-width-bloc .col-md-7, .full-width-bloc .col-lg-7, .full-width-bloc .col-xs-8, .full-width-bloc .col-sm-8, .full-width-bloc .col-md-8, .full-width-bloc .col-lg-8, .full-width-bloc .col-xs-9, .full-width-bloc .col-sm-9, .full-width-bloc .col-md-9, .full-width-bloc .col-lg-9, .full-width-bloc .col-xs-10, .full-width-bloc .col-sm-10, .full-width-bloc .col-md-10, .full-width-bloc .col-lg-10, .full-width-bloc .col-xs-11, .full-width-bloc .col-sm-11, .full-width-bloc .col-md-11, .full-width-bloc .col-lg-11, .full-width-bloc .col-xs-12, .full-width-bloc .col-sm-12, .full-width-bloc .col-md-12, .full-width-bloc .col-lg-12 {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    .video-bg-contianer{
+    .video-bg-container{
         display:none;
     }
     .blocsapp-device-iphone5{
@@ -980,11 +945,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	   width: 180px;
 	   height: 320px;
     }
-}@media (max-width: 768px){
+}
+
+@media (max-width: 768px){
 	.bloc-group-text-vc, .mobile .bloc-group-text-vc{
 	margin-top:0%;
 }
-}
+ 
 @media (max-width: 420px){
 	.lake-hero-text{
 	font-size:38px;
@@ -1004,5 +971,4 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bloc-mob-center-text{
 	text-align:center;
 }
-}
-
+ 
