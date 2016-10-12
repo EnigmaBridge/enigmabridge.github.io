@@ -39,9 +39,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Sizes */
 
-.bloc-xl{
-	padding:150px 50px;
-}
 .bloc-lg{
 	padding:100px 50px;
 }
@@ -709,14 +706,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 /* Text colour styles */
 
-.bgc-{
-	background-color:#000000;
-}
 .tc-rich-electric-blue{
 	color:#00A7D6!important;
 }
 .tc-white{
 	color:#ffffff!important;
+}
+.bgc-{
+	background-color:#000000;
 }
 .tc-dark-jungle-green{
 	color:#1E1E1E!important;
@@ -755,10 +752,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#00A7D6!important;
 	border-color:#00A7D6!important;
 }
-.icon-dark-jungle-green{
-	color:#1E1E1E!important;
-	border-color:#1E1E1E!important;
-}
 
 /* Bloc image backgrounds */
 
@@ -775,7 +768,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/s3x-0769-911_small.jpg");
 }
 .bg-Screen-Shot-2016-08-27-at-10-17-15{
-	background-image:url("img/Screen%20Shot%202016-08-27%20at%2010.17.15.png");
+	background-image:url("img/ScreenShot2016-08-27at10.17.15.png");
 }
 .bg-keysInEJBCA-minified{
 	background-image:url("img/keysInEJBCA_minified.png");
