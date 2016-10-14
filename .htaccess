@@ -1,2 +1,10 @@
-Redirect 301 /amazonpki /key-management.html
-
+Options +FollowSymLinks
+RewriteEngine on
+#Redirect Old File
+Options +FollowSymLinks
+RewriteEngine on
+RedirectMatch 301 ^/amazonpki(.*)$ /key-management.html
+RedirectMatch 302 ^/support/aws13076(.*)$ https://enigmabridge.freshdesk.com/support/solutions/articles/19000013076
+RedirectMatch 302 ^/support/aws13073(.*)$ https://enigmabridge.freshdesk.com/support/solutions/articles/19000013073
+#302 Redirect Entire Directory
+RedirectMatch 302 ^/support(.*)$ https://enigmabridge.freshdesk.com/
