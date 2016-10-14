@@ -253,13 +253,13 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 14px;
 	line-height: 20px;
 }
-#bloc-26 p{
-	font-size: 16px;
-}
 #bloc-27 p{
 	font-size: 16px;
 }
 #bloc-28 p{
+	font-size: 16px;
+}
+#bloc-29 p{
 	font-size: 18px;
 }
 
@@ -380,6 +380,27 @@ nav .caret{
 	border-bottom-color:transparent;
 	margin: 6px -5px 0 0!important;
 	float: right;
+}
+/* = Sticky Nav
+-------------------------------------------------------------- */
+
+.sticky-nav.sticky{
+	position:fixed;
+	top:0;
+	z-index:1000;
+	box-shadow:0 1px 2px rgba(0,0,0,.3);
+	 transition: all .2s ease-out;
+}
+.fill-bloc-top-edge.sticky{
+	background-color:rgb(255, 255, 255);
+	width:100%;
+	max-width: 100%;
+	margin-top: 0;
+	padding: 20px;
+}
+.fill-bloc-top-edge.sticky .navbar{
+	max-width: 1170px;
+	margin: 0 auto;
 }
 
 /* = Bric adjustment margins
@@ -704,6 +725,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-rich-electric-blue{
 	background-color:#00A7D6;
 }
+.bgc-green-pigment{
+	background-color:#00A345;
+}
 /* Text colour styles */
 
 .tc-rich-electric-blue{
@@ -726,6 +750,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .btn-rich-electric-blue:hover{
 	background:#0086ab;
+	color:#FFFFFF!important;
+}
+.btn-dark-jungle-green{
+	background:#1E1E1E;
+	color:#FFFFFF!important;
+}
+.btn-dark-jungle-green:hover{
+	background:#181818;
 	color:#FFFFFF!important;
 }
 /* Link colour styles */
@@ -780,7 +812,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/keysInEJBCA_minified.png");
 }
 .bg-Screen-Shot-2016-08-27-at-10-17-15{
-	background-image:url('img/Screen%20Shot%202016-08-27%20at%2010.17.15.png');
+	background-image:url("img/ScreenShot2016-08-27at10.17.15.png");
 }
 
 
