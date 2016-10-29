@@ -230,26 +230,32 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-1 p{
 	font-size: 17px;
 }
-#bloc-13 p{
+#bloc-2 h2{
+	font-size: 25px;
+}
+#bloc-4 h3{
+	font-size: 25px;
+}
+#bloc-14 p{
 	font-size: 16px;
 	line-height: 20px;
 }
-#bloc-16 p{
-	font-size: 18px;
-	line-height: 25px;
-}
-#bloc-19 p{
+#bloc-17 p{
 	font-size: 18px;
 	line-height: 25px;
 }
 #bloc-20 p{
+	font-size: 18px;
+	line-height: 25px;
+}
+#bloc-21 p{
 	font-size: 16px;
 }
-#bloc-22 h1{
+#bloc-23 h1{
 	font-size: 44px;
 	line-height: 48px;
 }
-#bloc-23 p{
+#bloc-24 p{
 	font-size: 14px;
 	line-height: 20px;
 }
@@ -261,6 +267,12 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 #bloc-29 p{
 	font-size: 18px;
+}
+#bloc-33 h3{
+	font-size: 29px;
+}
+#bloc-33 p{
+	font-size: 17px;
 }
 
 /* = NavBar
@@ -408,6 +420,10 @@ nav .caret{
 
 .mg-clear{
 	margin:0;
+}
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
 }
 .mg-md{
 	margin-top:10px;
@@ -587,6 +603,43 @@ button{
 iframe{
 	border:0;
 }
+/* = Carousel
+-------------------------------------------------------------- */
+
+.carousel{
+	display:inline-block;
+	vertical-align:bottom;
+}
+.full-width-bloc .carousel{
+	width:100%;
+}
+.carousel .item img{
+	margin-right:auto;
+	margin-left:auto;
+}
+.carousel-control span{
+	position: absolute;
+	top: 50%;
+	z-index: 5;
+	display: inline-block;
+}
+.carousel-control{
+	color:#FFF!important;
+	text-shadow: none;
+}
+.carousel-indicators li{
+	margin: 0 4px;
+}
+.carousel-indicators .active{
+	margin: 0 4px -1px;
+}
+.carousel-control.left span{
+	margin-left:-15px;
+}
+
+.no-shadows .carousel-control.left, .no-shadows .carousel-control.right{
+	background-image: none;
+}
 
 
 /* ScrollToTop button */
@@ -710,6 +763,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .lake-hero-text-sub-s{
 	font-size:34px;
 }
+.https{
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -741,6 +796,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-dark-jungle-green{
 	color:#1E1E1E!important;
+}
+.tc-black{
+	color:#000000!important;
 }
 /* Button colour styles */
 
@@ -812,7 +870,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/keysInEJBCA_minified.png");
 }
 .bg-Screen-Shot-2016-08-27-at-10-17-15{
+<<<<<<< Updated upstream
 	background-image:url("img/ScreenShot2016-08-27at10.17.15.png");
+=======
+	background-image:url("img/Screen%20Shot%202016-08-27%20at%2010.17.15.png");
+>>>>>>> Stashed changes
 }
 
 
