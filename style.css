@@ -126,6 +126,19 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 
 
+/* Background Styles */
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	-webkit-background-size: auto!important;
+	-moz-background-size: auto!important;
+	-o-background-size: auto!important;
+	background-size: auto!important;
+}
+.bg-repeat{
+	background:repeat;
+}
+
+
 /* Background Effects */
 
 .b-parallax{
@@ -223,55 +236,230 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
-#bloc-1 h2{
-	line-height: 60px;
-	font-size: 44px;
-}
-#bloc-1 p{
+#bloc--1 icon{
 	font-size: 17px;
 }
-#bloc-2 h2{
-	font-size: 25px;
+#bloc-1 h2{
+	line-height: 60px;
+	font-size: 30px;
+}
+#bloc-1 p{
+	font-size: 13px;
+}
+#bloc-2 h3{
+	font-size: 17px;
+}
+#bloc-2 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-3 h2{
+	font-size: 17px;
+}
+#bloc-3 a{
+	font-size: 17px;
 }
 #bloc-4 h3{
-	font-size: 25px;
+	font-size: 17px;
+}
+#bloc-4 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-4 a{
+	font-size: 13.000000953674316px;
+}
+#bloc-5 h3{
+	font-size: 17px;
+}
+#bloc-5 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-6 h3{
+	font-size: 17px;
+}
+#bloc-6 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-6 a{
+	font-size: 13.000000953674316px;
+}
+#bloc-6 a{
+	display: block;
+	font-size: 13.000000953674316px;
+}
+#bloc-5x h3{
+	font-size: 17px;
+}
+#bloc-5x p{
+	font-size: 13.000000953674316px;
+}
+#bloc-8 h3{
+	font-size: 17px;
+}
+#bloc-8 p{
+	font-size: 13.000000953674316px;
+}
+#team p{
+	font-size: 17.000000953674316px;
+}
+#bloc-11 h2{
+	font-size: 17px;
+}
+#bloc-11 h4{
+	font-size: 13px;
+}
+#signup h4{
+	font-size: 17px;
+}
+#bloc-13 h3{
+	font-size: 17px;
+}
+#bloc-13 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-14 h3{
+	font-size: 17px;
 }
 #bloc-14 p{
-	font-size: 16px;
 	line-height: 20px;
+	font-size: 13px;
+}
+#bloc-15 h3{
+	font-size: 17px;
+}
+#bloc-15 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-16 h1{
+	font-size: 30px;
+}
+#bloc-16 h3{
+	font-size: 30px;
+}
+#bloc-17 h3{
+	font-size: 17px;
 }
 #bloc-17 p{
-	font-size: 18px;
 	line-height: 25px;
+	font-size: 13px;
+}
+#bloc-20 h3{
+	font-size: 17px;
 }
 #bloc-20 p{
-	font-size: 18px;
 	line-height: 25px;
+	font-size: 13px;
+}
+#bloc-21 h3{
+	font-size: 17px;
 }
 #bloc-21 p{
-	font-size: 16px;
+	font-size: 13px;
+}
+#bloc-21 a{
+	font-size: 13px;
+}
+#bloc-22 h3{
+	font-size: 17px;
+}
+#bloc-22 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-23 a{
+	font-size: 17px;
+}
+#bloc-23 img{
+	font-size: 30px;
 }
 #bloc-23 h1{
-	font-size: 44px;
 	line-height: 48px;
+	font-size: 30px;
+}
+#bloc-23 h3{
+	font-size: 17px;
+}
+#bloc-24 h1{
+	font-size: 30px;
 }
 #bloc-24 p{
-	font-size: 14px;
 	line-height: 20px;
+	font-size: 13.000000953674316px;
+}
+#bloc-25 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-26 a{
+	font-size: 17px;
+}
+#bloc-26 h1{
+	font-size: 30px;
+}
+#bloc-26 h3{
+	font-size: 17px;
+}
+#bloc-27 h3{
+	font-size: 17px;
 }
 #bloc-27 p{
-	font-size: 16px;
+	font-size: 13px;
+}
+#bloc-27 img{
+	font-size: 13px;
+}
+#bloc-28 h3{
+	font-size: 17px;
 }
 #bloc-28 p{
-	font-size: 16px;
+	font-size: 13px;
+}
+#bloc-29 h1{
+	font-size: 17px;
 }
 #bloc-29 p{
-	font-size: 18px;
+	font-size: 13px;
+}
+#bloc-30 icon{
+	font-size: 13.000000953674316px;
+}
+#bloc-30 h3{
+	font-size: 17px;
+}
+#bloc-30 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-31 h1{
+	font-size: 30px;
+}
+#bloc-31 h3{
+	font-size: 30px;
+}
+#bloc-32 a{
+	font-size: 30px;
+}
+#bloc-32 h1{
+	font-size: 30px;
+}
+#bloc-32 h3{
+	font-size: 30px;
 }
 #bloc-33 h3{
-	font-size: 29px;
+	font-size: 30px;
 }
 #bloc-33 p{
+	font-size: 13px;
+}
+#bloc-35 h3{
+	font-size: 17px;
+}
+#bloc-35 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-37 h3{
+	font-size: 17px;
+}
+#bloc-38 h3{
+	font-size: 17px;
+}
+#bloc-38 a{
 	font-size: 17px;
 }
 
@@ -393,27 +581,6 @@ nav .caret{
 	margin: 6px -5px 0 0!important;
 	float: right;
 }
-/* = Sticky Nav
--------------------------------------------------------------- */
-
-.sticky-nav.sticky{
-	position:fixed;
-	top:0;
-	z-index:1000;
-	box-shadow:0 1px 2px rgba(0,0,0,.3);
-	 transition: all .2s ease-out;
-}
-.fill-bloc-top-edge.sticky{
-	background-color:rgb(255, 255, 255);
-	width:100%;
-	max-width: 100%;
-	margin-top: 0;
-	padding: 20px;
-}
-.fill-bloc-top-edge.sticky .navbar{
-	max-width: 1170px;
-	margin: 0 auto;
-}
 
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
@@ -477,10 +644,6 @@ button{
 	background:transparent!important;
 	border:2px solid transparent;
 }
-.btn-xl{
-	padding: 16px 40px;
-	font-size: 28px;
-}
 .a-btn{
 	padding: 6px 10px 6px 0;
 	line-height: 1.42857143;
@@ -501,6 +664,9 @@ button{
 
 /* = Icons
 -------------------------------------------------------------- */
+.icon-sm{
+	font-size:18px!important;
+}
 .icon-md{
 	font-size:30px!important;
 }
@@ -780,9 +946,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-rich-electric-blue{
 	background-color:#00A7D6;
 }
-.bgc-green-pigment{
-	background-color:#00A345;
-}
 /* Text colour styles */
 
 .tc-rich-electric-blue{
@@ -791,14 +954,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-white{
 	color:#ffffff!important;
 }
-.bgc-{
-	background-color:#000000;
-}
 .tc-dark-jungle-green{
 	color:#1E1E1E!important;
 }
-.tc-black{
-	color:#000000!important;
+.bgc-{
+	background-color:#000000;
 }
 /* Button colour styles */
 
@@ -808,14 +968,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .btn-rich-electric-blue:hover{
 	background:#0086ab;
-	color:#FFFFFF!important;
-}
-.btn-dark-jungle-green{
-	background:#1E1E1E;
-	color:#FFFFFF!important;
-}
-.btn-dark-jungle-green:hover{
-	background:#181818;
 	color:#FFFFFF!important;
 }
 /* Link colour styles */
@@ -845,9 +997,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
-.bg-bigstock-woman-hand-holding-an-old-door-98401496-3-bright{
-	background-image:url("img/bigstock-woman-hand-holding-an-old-door-98401496_3_bright.jpg");
-}
 .bg-bigstock-Future-technology-Touch-butto-99366956-min-bright{
 	background-image:url("img/bigstock-Future-technology-Touch-butto-99366956-min_bright.jpg");
 }
@@ -860,21 +1009,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-Screen-Shot-2016-08-27-at-10-17-15{
 	background-image:url("img/ScreenShot2016-08-27at10.17.15.png");
 }
-.bg-keysInEJBCA-minified{
-	background-image:url("img/keysInEJBCA_minified.png");
-}
-.bg-keysInEJBCA-minified{
-	background-image:url("img/keysInEJBCA_minified.png");
-}
-.bg-keysInEJBCA-minified{
-	background-image:url("img/keysInEJBCA_minified.png");
-}
 .bg-Screen-Shot-2016-08-27-at-10-17-15{
-<<<<<<< Updated upstream
-	background-image:url("img/ScreenShot2016-08-27at10.17.15.png");
-=======
 	background-image:url("img/Screen%20Shot%202016-08-27%20at%2010.17.15.png");
->>>>>>> Stashed changes
+}
+.bg-lines-h-bg{
+	background-image:url('img/lines-h-bg.png');
+}
+.bg-lines-dl{
+	background-image:url('img/lines-dl.png');
 }
 
 
