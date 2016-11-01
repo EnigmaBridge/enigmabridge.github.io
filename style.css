@@ -364,15 +364,15 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-24 a{
 	font-size: 17px;
 }
-#bloc-24 img{
-	font-size: 30px;
-}
 #bloc-24 h1{
 	line-height: 48px;
 	font-size: 30px;
 }
 #bloc-24 h3{
 	font-size: 17px;
+}
+#bloc-24 img{
+	font-size: 30px;
 }
 #bloc-25 h1{
 	font-size: 30px;
@@ -384,23 +384,11 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-26 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-27 a{
-	font-size: 28px;
-}
-#bloc-27 h1{
+#bloc-28 h1{
 	font-size: 36px;
 }
-#bloc-27 h3{
+#bloc-28 a{
 	font-size: 28px;
-}
-#bloc-28 h3{
-	font-size: 17px;
-}
-#bloc-28 p{
-	font-size: 13px;
-}
-#bloc-28 img{
-	font-size: 13px;
 }
 #bloc-29 h3{
 	font-size: 17px;
@@ -408,29 +396,29 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-29 p{
 	font-size: 13px;
 }
-#bloc-30 h1{
+#bloc-29 img{
+	font-size: 13px;
+}
+#bloc-30 h3{
 	font-size: 17px;
 }
 #bloc-30 p{
 	font-size: 13px;
 }
-#bloc-31 icon{
-	font-size: 13.000000953674316px;
-}
-#bloc-31 h3{
+#bloc-31 h1{
 	font-size: 17px;
 }
 #bloc-31 p{
+	font-size: 13px;
+}
+#bloc-32 icon{
 	font-size: 13.000000953674316px;
 }
-#bloc-32 h1{
-	font-size: 30px;
-}
 #bloc-32 h3{
-	font-size: 30px;
+	font-size: 17px;
 }
-#bloc-33 a{
-	font-size: 30px;
+#bloc-32 p{
+	font-size: 13.000000953674316px;
 }
 #bloc-33 h1{
 	font-size: 30px;
@@ -438,53 +426,62 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-33 h3{
 	font-size: 30px;
 }
+#bloc-34 a{
+	font-size: 30px;
+}
+#bloc-34 h1{
+	font-size: 30px;
+}
 #bloc-34 h3{
 	font-size: 30px;
 }
-#bloc-34 p{
+#bloc-35 h3{
+	font-size: 30px;
+}
+#bloc-35 p{
 	font-size: 17px;
 }
-#bloc-35 h3{
+#bloc-36 h3{
 	font-size: 17.000001907348633px;
 	line-height: 30px;
 }
-#bloc-35 p{
+#bloc-36 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-36 p{
+#bloc-37 p{
 	font-size: 16px;
 }
-#bloc-39 h3{
+#bloc-40 h3{
 	font-size: 17px;
 }
-#bloc-39 p{
+#bloc-40 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-42 h3{
+#bloc-43 h3{
 	font-size: 17px;
 }
-#bloc-43 h2{
+#bloc-44 h2{
 	font-size: 24px;
 	line-height: 24px;
 }
-#bloc-43 h3{
+#bloc-44 h3{
 	font-size: 22px;
 }
-#bloc-45 h2{
+#bloc-46 h2{
 	font-size: 22px;
 	line-height: 28px;
 }
-#bloc-46 h3{
+#bloc-47 h3{
 	font-size: 18px;
 }
-#bloc-47 h3{
+#bloc-48 h3{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-48 h3{
+#bloc-49 h3{
 	font-size: 17px;
 }
-#bloc-48 a{
+#bloc-49 a{
 	font-size: 17px;
 }
 
