@@ -302,47 +302,40 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 17px;
 }
 #bloc-11 h4{
-	font-size: 13px;
+	font-size: 16px;
 }
 #signup h4{
 	font-size: 17px;
-}
-#bloc-13 h3{
-	font-size: 17px;
-}
-#bloc-13 p{
-	font-size: 13.000000953674316px;
 }
 #bloc-14 h3{
 	font-size: 17px;
 }
 #bloc-14 p{
-	line-height: 20px;
-	font-size: 13px;
+	font-size: 13.000000953674316px;
 }
 #bloc-15 h3{
 	font-size: 17px;
 }
 #bloc-15 p{
-	font-size: 13.000000953674316px;
-}
-#bloc-16 h1{
-	font-size: 30px;
+	line-height: 20px;
+	font-size: 13px;
 }
 #bloc-16 h3{
+	font-size: 17px;
+}
+#bloc-16 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-17 h1{
 	font-size: 30px;
 }
 #bloc-17 h3{
+	font-size: 30px;
+}
+#bloc-18 h3{
 	font-size: 17px;
 }
-#bloc-17 p{
-	line-height: 25px;
-	font-size: 13px;
-}
-#bloc-20 h3{
-	font-size: 17px;
-}
-#bloc-20 p{
+#bloc-18 p{
 	line-height: 25px;
 	font-size: 13px;
 }
@@ -350,120 +343,145 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 17px;
 }
 #bloc-21 p{
-	font-size: 13px;
-}
-#bloc-21 a{
+	line-height: 25px;
 	font-size: 13px;
 }
 #bloc-22 h3{
 	font-size: 17px;
 }
 #bloc-22 p{
-	font-size: 13.000000953674316px;
+	font-size: 13px;
 }
-#bloc-23 a{
-	font-size: 17px;
-}
-#bloc-23 img{
-	font-size: 30px;
-}
-#bloc-23 h1{
-	line-height: 48px;
-	font-size: 30px;
+#bloc-22 a{
+	font-size: 13px;
 }
 #bloc-23 h3{
 	font-size: 17px;
 }
+#bloc-23 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-24 a{
+	font-size: 17px;
+}
 #bloc-24 h1{
+	line-height: 48px;
 	font-size: 30px;
 }
-#bloc-24 p{
+#bloc-24 h3{
+	font-size: 17px;
+}
+#bloc-24 img{
+	font-size: 30px;
+}
+#bloc-25 h1{
+	font-size: 30px;
+}
+#bloc-25 p{
 	line-height: 20px;
 	font-size: 13.000000953674316px;
 }
-#bloc-25 p{
+#bloc-26 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-26 a{
-	font-size: 17px;
+#bloc-28 h1{
+	font-size: 36px;
 }
-#bloc-26 h1{
-	font-size: 30px;
+#bloc-28 a{
+	font-size: 28px;
 }
-#bloc-26 h3{
-	font-size: 17px;
-}
-#bloc-27 h3{
-	font-size: 17px;
-}
-#bloc-27 p{
-	font-size: 13px;
-}
-#bloc-27 img{
-	font-size: 13px;
-}
-#bloc-28 h3{
-	font-size: 17px;
-}
-#bloc-28 p{
-	font-size: 13px;
-}
-#bloc-29 h1{
+#bloc-29 h3{
 	font-size: 17px;
 }
 #bloc-29 p{
 	font-size: 13px;
 }
-#bloc-30 icon{
-	font-size: 13.000000953674316px;
+#bloc-29 img{
+	font-size: 13px;
 }
 #bloc-30 h3{
 	font-size: 17px;
 }
 #bloc-30 p{
-	font-size: 13.000000953674316px;
+	font-size: 13px;
 }
 #bloc-31 h1{
-	font-size: 30px;
+	font-size: 17px;
 }
-#bloc-31 h3{
-	font-size: 30px;
+#bloc-31 p{
+	font-size: 13px;
 }
-#bloc-32 a{
-	font-size: 30px;
-}
-#bloc-32 h1{
-	font-size: 30px;
+#bloc-32 icon{
+	font-size: 13.000000953674316px;
 }
 #bloc-32 h3{
+	font-size: 17px;
+}
+#bloc-32 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-33 h1{
 	font-size: 30px;
 }
 #bloc-33 h3{
 	font-size: 30px;
 }
-#bloc-33 p{
-	font-size: 17px;
+#bloc-34 a{
+	font-size: 30px;
+}
+#bloc-34 h1{
+	font-size: 30px;
 }
 #bloc-34 h3{
+	font-size: 30px;
+}
+#bloc-35 h3{
+	font-size: 30px;
+}
+#bloc-35 p{
+	font-size: 17px;
+}
+#bloc-36 h3{
 	font-size: 17.000001907348633px;
 	line-height: 30px;
 }
-#bloc-34 p{
+#bloc-36 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-38 h3{
+#bloc-37 p{
+	font-size: 16px;
+}
+#bloc-40 h3{
 	font-size: 17px;
 }
-#bloc-38 p{
+#bloc-40 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-41 h3{
+#bloc-43 h3{
 	font-size: 17px;
 }
-#bloc-42 h3{
+#bloc-44 h2{
+	font-size: 24px;
+	line-height: 24px;
+}
+#bloc-44 h3{
+	font-size: 22px;
+}
+#bloc-46 h2{
+	font-size: 22px;
+	line-height: 28px;
+}
+#bloc-47 h3{
+	font-size: 18px;
+}
+#bloc-48 h3{
+	font-size: 18px;
+	line-height: 26px;
+}
+#bloc-49 h3{
 	font-size: 17px;
 }
-#bloc-42 a{
+#bloc-49 a{
 	font-size: 17px;
 }
 
@@ -1001,18 +1019,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
-.bg-bigstock-Future-technology-Touch-butto-99366956-min-bright{
-	background-image:url("img/bigstock-Future-technology-Touch-butto-99366956-min_bright.jpg");
-}
 .bg-s3x-0769-911-small{
 	background-image:url("img/s3x-0769-911_small.jpg");
 }
 .bg-s3x-0769-911-small{
 	background-image:url("img/s3x-0769-911_small.jpg");
 }
-.bg-Screen-Shot-2016-08-27-at-10-17-15{
-	background-image:url("img/ScreenShot2016-08-27at10.17.15.png");
-}
 .bg-keysInEJBCA-minified{
 	background-image:url("img/keysInEJBCA_minified.png");
 }
@@ -1022,8 +1034,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-keysInEJBCA-minified{
 	background-image:url("img/keysInEJBCA_minified.png");
 }
-.bg-Screen-Shot-2016-08-27-at-10-17-15{
-	background-image:url("img/ScreenShot2016-08-27at10.17.15.png");
+.bg-Screen-Shot-2016-08-27-at-10-18-30{
+	background-image:url("img/ScreenShot2016-08-27at10.18.30.png");
 }
 .bg-lines-h-bg{
 	background-image:url("img/lines-h-bg.png");
@@ -1032,7 +1044,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/lines-dl.png");
 }
 .bg-keysInEJBCA-minified{
-	background-image:url('img/keysInEJBCA_minified.png');
+	background-image:url("img/keysInEJBCA_minified.png");
+}
+.bg-Screen-Shot-2016-08-27-at-10-18-30{
+	background-image:url('img/Screen%20Shot%202016-08-27%20at%2010.18.30.png');
+}
+.bg-bigstock-Future-technology-Touch-butto-99366956-min{
+	background-image:url('img/bigstock-Future-technology-Touch-butto-99366956-min.jpg');
 }
 
 
