@@ -8,7 +8,7 @@
 	$email6 = $_POST['email6'];
 	$message6 = $_POST['message6'];
 	
-	$to = 'support@enigmabridge.com'; // Email submissions are sent to this email
+	$to = 'enigmabridgecomsupport@enigmabridge.freshdesk.com'; // Email submissions are sent to this email
 
 	// Create email	
 	$email_subject = "Message from EB-webSite.";
