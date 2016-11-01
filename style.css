@@ -385,13 +385,13 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 13.000000953674316px;
 }
 #bloc-27 a{
-	font-size: 17px;
+	font-size: 28px;
 }
 #bloc-27 h1{
-	font-size: 30px;
+	font-size: 36px;
 }
 #bloc-27 h3{
-	font-size: 17px;
+	font-size: 28px;
 }
 #bloc-28 h3{
 	font-size: 17px;
@@ -450,6 +450,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 #bloc-35 p{
 	font-size: 13.000000953674316px;
+}
+#bloc-36 p{
+	font-size: 16px;
 }
 #bloc-39 h3{
 	font-size: 17px;
@@ -1019,9 +1022,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
-.bg-bigstock-Future-technology-Touch-butto-99366956-min-bright{
-	background-image:url("img/bigstock-Future-technology-Touch-butto-99366956-min_bright.jpg");
-}
 .bg-s3x-0769-911-small{
 	background-image:url("img/s3x-0769-911_small.jpg");
 }
@@ -1051,6 +1051,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-Screen-Shot-2016-08-27-at-10-18-30{
 	background-image:url('img/Screen%20Shot%202016-08-27%20at%2010.18.30.png');
+}
+.bg-bigstock-Future-technology-Touch-butto-99366956-min{
+	background-image:url('img/bigstock-Future-technology-Touch-butto-99366956-min.jpg');
 }
 
 
