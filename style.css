@@ -952,14 +952,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 /* Text colour styles */
 
+.tc-dark-jungle-green{
+	color:#1E1E1E!important;
+}
 .tc-rich-electric-blue{
 	color:#00A7D6!important;
 }
 .tc-white{
 	color:#ffffff!important;
-}
-.tc-dark-jungle-green{
-	color:#1E1E1E!important;
 }
 .bgc-{
 	background-color:#000000;
