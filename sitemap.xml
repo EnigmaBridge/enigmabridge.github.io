@@ -77,4 +77,10 @@
 <changefreq>Weekly</changefreq>
 <priority>0.5</priority>
 </url>
+<url>
+<loc>http://enigmabridge.com/hardware-security.html</loc>
+<lastmod>2016-11-01</lastmod>
+<changefreq>Weekly</changefreq>
+<priority>0.5</priority>
+</url>
 </urlset>

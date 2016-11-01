@@ -460,10 +460,21 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-41 h3{
 	font-size: 17px;
 }
-#bloc-42 h3{
+#bloc-44 h2{
+	font-size: 22px;
+	line-height: 28px;
+}
+#bloc-45 h3{
+	font-size: 18px;
+}
+#bloc-46 h3{
+	font-size: 18px;
+	line-height: 26px;
+}
+#bloc-47 h3{
 	font-size: 17px;
 }
-#bloc-42 a{
+#bloc-47 a{
 	font-size: 17px;
 }
 
@@ -1032,7 +1043,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/lines-dl.png");
 }
 .bg-keysInEJBCA-minified{
-	background-image:url('img/keysInEJBCA_minified.png');
+	background-image:url("img/keysInEJBCA_minified.png");
 }
 
 
