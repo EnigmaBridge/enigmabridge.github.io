@@ -478,10 +478,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-49 h3{
+#bloc-50 h3{
 	font-size: 17px;
 }
-#bloc-49 a{
+#bloc-50 a{
 	font-size: 17px;
 }
 
@@ -1047,10 +1047,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/keysInEJBCA_minified.png");
 }
 .bg-Screen-Shot-2016-08-27-at-10-18-30{
-	background-image:url('img/Screen%20Shot%202016-08-27%20at%2010.18.30.png');
+	background-image:url("img/Screen%20Shot%202016-08-27%20at%2010.18.30.png");
 }
 .bg-bigstock-Future-technology-Touch-butto-99366956-min{
-	background-image:url('img/bigstock-Future-technology-Touch-butto-99366956-min.jpg');
+	background-image:url("img/bigstock-Future-technology-Touch-butto-99366956-min.jpg");
 }
 
 
