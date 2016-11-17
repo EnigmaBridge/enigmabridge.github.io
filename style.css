@@ -390,6 +390,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-28 a{
 	font-size: 28px;
 }
+#bloc-28 p{
+	font-size: 18px;
+}
 #bloc-29 h3{
 	font-size: 17px;
 }
@@ -411,23 +414,18 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-31 p{
 	font-size: 13px;
 }
-#bloc-32 icon{
+#gestartedpki p{
+	font-size: 18px;
+	line-height: 25px;
+}
+#bloc-33 icon{
 	font-size: 13.000000953674316px;
-}
-#bloc-32 h3{
-	font-size: 17px;
-}
-#bloc-32 p{
-	font-size: 13.000000953674316px;
-}
-#bloc-33 h1{
-	font-size: 30px;
 }
 #bloc-33 h3{
-	font-size: 30px;
+	font-size: 17px;
 }
-#bloc-34 a{
-	font-size: 30px;
+#bloc-33 p{
+	font-size: 13.000000953674316px;
 }
 #bloc-34 h1{
 	font-size: 30px;
@@ -479,9 +477,20 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	line-height: 26px;
 }
 #bloc-50 h3{
+	line-height: 26px;
+	font-size: 16px;
+}
+#bloc-54 h3{
+	font-size: 18px;
+	line-height: 24px;
+}
+#bloc-55 h3{
+	font-size: 18px;
+}
+#bloc-60 h3{
 	font-size: 17px;
 }
-#bloc-50 a{
+#bloc-60 a{
 	font-size: 17px;
 }
 
@@ -727,6 +736,15 @@ button{
 -------------------------------------------------------------- */
 .sm-shadow{
 	text-shadow:0 1px 2px rgba(0,0,0,.3);
+}
+/* = Text Widths
+-------------------------------------------------------------- */
+.text-w-60{
+	max-width:60%;
+}
+.text-center.text-w-sm, .text-center.text-w-md, .text-center.text-w-lg, .text-center.text-w-90, .text-center.text-w-80, .text-center.text-w-70, .text-center.text-w-60, .text-center.text-w-50{
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* = Lists
@@ -1025,15 +1043,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-s3x-0769-911-small{
 	background-image:url("img/s3x-0769-911_small.jpg");
 }
-.bg-keysInEJBCA-minified{
-	background-image:url("img/keysInEJBCA_minified.png");
-}
-.bg-keysInEJBCA-minified{
-	background-image:url("img/keysInEJBCA_minified.png");
-}
-.bg-keysInEJBCA-minified{
-	background-image:url("img/keysInEJBCA_minified.png");
-}
 .bg-Screen-Shot-2016-08-27-at-10-18-30{
 	background-image:url("img/ScreenShot2016-08-27at10.18.30.png");
 }
@@ -1043,14 +1052,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-lines-dl{
 	background-image:url("img/lines-dl.png");
 }
-.bg-keysInEJBCA-minified{
-	background-image:url("img/keysInEJBCA_minified.png");
-}
 .bg-Screen-Shot-2016-08-27-at-10-18-30{
 	background-image:url("img/Screen%20Shot%202016-08-27%20at%2010.18.30.png");
 }
 .bg-bigstock-Future-technology-Touch-butto-99366956-min{
 	background-image:url("img/bigstock-Future-technology-Touch-butto-99366956-min.jpg");
+}
+.bg-s3x-0769-911-small{
+	background-image:url("img/s3x-0769-911_small.jpg");
+}
+.bg-Screen-Shot-2016-08-27-at-10-18-30{
+	background-image:url("img/Screen%20Shot%202016-08-27%20at%2010.18.30.png");
 }
 
 
@@ -1235,6 +1247,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.bloc-group-text-vc, .mobile .bloc-group-text-vc{
 	margin-top:0%;
 }
+.hero-text-vc, .mobile .hero-text-vc{
+	margin-top:10%;
+}
  }
 
 @media (max-width: 420px){
@@ -1255,6 +1270,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bloc-mob-center-text{
 	text-align:center;
+}
+.hero-text-vc{
+	margin-top:0px;
 }
  }
 
