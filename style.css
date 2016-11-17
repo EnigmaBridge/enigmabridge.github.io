@@ -99,6 +99,22 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	color: rgba(255,255,255,1);
 }
 
+/* = Full Width Blocs 
+-------------------------------------------------------------- */
+
+.full-width-bloc{
+	padding-left:0;
+	padding-right:0;
+}
+.full-width-bloc .container{
+	width:100%;
+	max-width:100%!important;
+}
+.full-width-bloc .carousel img{
+	width:100%;
+	height:auto;
+}
+
 
 /* Group Styles */
 
@@ -455,42 +471,55 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-40 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-43 h3{
-	font-size: 17px;
+#bloc-43 h2{
+	font-size: 40px;
 }
-#bloc-44 h2{
+#bloc-43 h3{
+	line-height: 23px;
+	font-size: 18px;
+}
+#bloc-44 p{
+	font-size: 16px;
+}
+#bloc-45 p{
+	font-size: 16px;
+}
+#bloc-46 p{
+	font-size: 16px;
+}
+#bloc-47 h2{
 	font-size: 24px;
 	line-height: 24px;
 }
-#bloc-44 h3{
+#bloc-47 h3{
 	font-size: 22px;
 }
-#bloc-46 h2{
+#bloc-49 h2{
 	font-size: 22px;
 	line-height: 28px;
 }
-#bloc-47 h3{
-	font-size: 18px;
-}
-#bloc-48 h3{
-	font-size: 18px;
-	line-height: 26px;
-}
 #bloc-50 h3{
-	line-height: 26px;
-	font-size: 16px;
+	font-size: 18px;
 }
-#bloc-54 h3{
+#bloc-51 h3{
+	font-size: 18px;
+	line-height: 26px;
+}
+#bloc-53 h3{
+	font-size: 16px;
+	line-height: 26px;
+}
+#bloc-57 h3{
 	font-size: 18px;
 	line-height: 24px;
 }
-#bloc-55 h3{
+#bloc-58 h3{
 	font-size: 18px;
 }
-#bloc-60 h3{
+#bloc-63 h3{
 	font-size: 17px;
 }
-#bloc-60 a{
+#bloc-63 a{
 	font-size: 17px;
 }
 
@@ -674,6 +703,10 @@ button{
 .btn-wire:hover{
 	background:transparent!important;
 	border:2px solid transparent;
+}
+.btn-xl{
+	padding: 16px 40px;
+	font-size: 28px;
 }
 .a-btn{
 	padding: 6px 10px 6px 0;
@@ -999,6 +1032,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-{
 	background-color:#000000;
+}
+.tc-onyx{
+	color:#101010!important;
 }
 /* Button colour styles */
 
