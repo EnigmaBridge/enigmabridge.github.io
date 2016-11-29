@@ -401,85 +401,93 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 13.000000953674316px;
 }
 #bloc-28 h1{
-	font-size: 36px;
+	line-height: 44px;
+	font-size: 50px;
+}
+#bloc-28 h2{
+	font-size: 30px;
 }
 #bloc-28 a{
 	font-size: 28px;
 }
-#bloc-28 p{
-	font-size: 18px;
+#bloc-29 h4{
+	font-size: 22px;
 }
 #bloc-29 h3{
-	font-size: 17px;
+	font-size: 20px;
 }
 #bloc-29 p{
-	font-size: 13px;
-}
-#bloc-29 img{
-	font-size: 13px;
+	font-size: 16px;
 }
 #bloc-30 h3{
-	font-size: 17px;
+	font-size: 22px;
 }
 #bloc-30 p{
+	font-size: 16px;
+}
+#bloc-30 img{
 	font-size: 13px;
 }
-#bloc-31 h1{
-	font-size: 17px;
+#bloc-31 icon{
+	font-size: 13.000000953674316px;
+}
+#bloc-31 h3{
+	font-size: 20px;
 }
 #bloc-31 p{
-	font-size: 13px;
+	font-size: 16px;
+}
+#bloc-32 h1{
+	font-size: 22px;
+}
+#bloc-32 p{
+	font-size: 14px;
+}
+#gestartedpki h5{
+	font-size: 18px;
+	line-height: 24px;
 }
 #gestartedpki p{
-	font-size: 18px;
-	line-height: 25px;
+	font-size: 14px;
 }
-#bloc-33 icon{
-	font-size: 13.000000953674316px;
+#pkipricing p{
+	font-size: 12px;
+	line-height: 18px;
 }
-#bloc-33 h3{
-	font-size: 17px;
-}
-#bloc-33 p{
-	font-size: 13.000000953674316px;
-}
-#bloc-34 h1{
-	font-size: 30px;
-}
-#bloc-34 h3{
+#bloc-35 h1{
 	font-size: 30px;
 }
 #bloc-35 h3{
 	font-size: 30px;
 }
-#bloc-35 p{
+#bloc-36 h3{
+	font-size: 30px;
+}
+#bloc-36 p{
 	font-size: 17px;
 }
-#bloc-36 h3{
+#bloc-37 h3{
 	font-size: 17.000001907348633px;
 	line-height: 30px;
 }
-#bloc-36 p{
+#bloc-37 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-37 p{
+#bloc-38 p{
 	font-size: 16px;
 }
-#bloc-40 h3{
+#bloc-41 h3{
 	font-size: 17px;
 }
-#bloc-40 p{
+#bloc-41 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-43 h2{
+#bloc-44 h2{
 	font-size: 40px;
 }
-#bloc-43 h3{
-	line-height: 23px;
+#bloc-44 h3{
 	font-size: 18px;
-}
-#bloc-44 p{
-	font-size: 16px;
+	line-height: 23px;
 }
 #bloc-45 p{
 	font-size: 16px;
@@ -487,39 +495,42 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-46 p{
 	font-size: 16px;
 }
-#bloc-47 h2{
+#bloc-47 p{
+	font-size: 16px;
+}
+#bloc-48 h2{
 	font-size: 24px;
 	line-height: 24px;
 }
-#bloc-47 h3{
+#bloc-48 h3{
 	font-size: 22px;
 }
-#bloc-49 h2{
+#bloc-50 h2{
 	font-size: 22px;
 	line-height: 28px;
 }
-#bloc-50 h3{
+#bloc-51 h3{
 	font-size: 18px;
 }
-#bloc-51 h3{
+#bloc-52 h3{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-53 h3{
+#bloc-54 h3{
 	font-size: 16px;
 	line-height: 26px;
 }
-#bloc-57 h3{
+#bloc-58 h3{
 	font-size: 18px;
 	line-height: 24px;
 }
-#bloc-58 h3{
+#bloc-59 h3{
 	font-size: 18px;
 }
-#bloc-63 h3{
+#bloc-64 h3{
 	font-size: 17px;
 }
-#bloc-63 a{
+#bloc-64 a{
 	font-size: 17px;
 }
 
@@ -769,15 +780,6 @@ button{
 -------------------------------------------------------------- */
 .sm-shadow{
 	text-shadow:0 1px 2px rgba(0,0,0,.3);
-}
-/* = Text Widths
--------------------------------------------------------------- */
-.text-w-60{
-	max-width:60%;
-}
-.text-center.text-w-sm, .text-center.text-w-md, .text-center.text-w-lg, .text-center.text-w-90, .text-center.text-w-80, .text-center.text-w-70, .text-center.text-w-60, .text-center.text-w-50{
-	margin-left: auto;
-	margin-right: auto;
 }
 
 /* = Lists
@@ -1099,6 +1101,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-Screen-Shot-2016-08-27-at-10-18-30{
 	background-image:url("img/Screen%20Shot%202016-08-27%20at%2010.18.30.png");
+}
+.bg-Screen-Shot-2016-08-27-at-10-18-30{
+	background-image:url('img/Screen%20Shot%202016-08-27%20at%2010.18.30.png');
+}
+.bg-s3x-0769-911-small{
+	background-image:url('img/s3x-0769-911_small.jpg');
+}
+.bg-clouds-1200px-opt{
+	background-image:url('img/clouds_1200px_opt.jpg');
 }
 
 
