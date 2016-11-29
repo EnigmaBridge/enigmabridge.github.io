@@ -410,17 +410,20 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-28 a{
 	font-size: 28px;
 }
+#bloc-29 h4{
+	font-size: 22px;
+}
 #bloc-29 h3{
-	font-size: 17px;
+	font-size: 20px;
 }
 #bloc-29 p{
-	font-size: 13px;
+	font-size: 16px;
 }
 #bloc-30 h3{
-	font-size: 17px;
+	font-size: 22px;
 }
 #bloc-30 p{
-	font-size: 13px;
+	font-size: 16px;
 }
 #bloc-30 img{
 	font-size: 13px;
@@ -429,20 +432,23 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 13.000000953674316px;
 }
 #bloc-31 h3{
-	font-size: 17px;
+	font-size: 20px;
 }
 #bloc-31 p{
-	font-size: 13.000000953674316px;
+	font-size: 16px;
 }
 #bloc-32 h1{
-	font-size: 17px;
+	font-size: 22px;
 }
 #bloc-32 p{
-	font-size: 13px;
+	font-size: 14px;
+}
+#gestartedpki h5{
+	font-size: 18px;
+	line-height: 24px;
 }
 #gestartedpki p{
-	font-size: 18px;
-	line-height: 25px;
+	font-size: 14px;
 }
 #pkipricing p{
 	font-size: 12px;
