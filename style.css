@@ -1045,6 +1045,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background:#0086ab;
 	color:#FFFFFF!important;
 }
+.btn-manatee{
+	background:#969696;
+	color:#FFFFFF!important;
+}
+.btn-manatee:hover{
+	background:#787878;
+	color:#FFFFFF!important;
+}
 /* Link colour styles */
 
 .ltc-rich-electric-blue{
