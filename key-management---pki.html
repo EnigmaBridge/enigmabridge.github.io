@@ -646,6 +646,10 @@ var handler = StripeCheckout.configure({
   token: function(token) {
     // You can access the token ID with `token.id`.
     // Get the token ID to your server-side code for use.
+    stripe.Customer.create(
+  description="Customer for "+ token.email,
+  source=token.id # obtained with Stripe.js
+)
   }
 });
 
