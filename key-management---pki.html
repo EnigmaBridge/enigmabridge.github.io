@@ -16,7 +16,6 @@
 	<script src="./js/blocs.min.js"></script>
     <title>Key Management - PKI</title>
 <script src="https://checkout.stripe.com/checkout.js"></script>
-<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 
     
 <!-- Google Analytics -->
@@ -641,13 +640,11 @@ twq('track','PageView');
 <!-- End Twitter universal website tag code -->
 <script>
 var handler = StripeCheckout.configure({
-  key: 'pk_test_VZQ26HsuNHcEA5Bp6IqNOfdK',
+  key: 'pk_live_grhY7lsJSmB86H5LmB2OFSYL',
   image: 'https://s3.amazonaws.com/stripe-uploads/acct_19HMeuI479zfn1dzmerchant-icon-1479679299726-logo1-rgb-cb_nomargin_logo_square.gif',
   locale: 'auto',
   token: function(token) {
-    stripe.Customer.create(
-  description="Customer for "+ token.email,
-  source=token.id )
+    // nothing here, we do it by hand for now
   }
 });
 
