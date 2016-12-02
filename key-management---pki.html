@@ -648,7 +648,7 @@ var handler = StripeCheckout.configure({
     // Get the token ID to your server-side code for use.
     stripe.Customer.create(
   description="Customer for "+ token.email,
-  source=token.id # obtained with Stripe.js
+  source=token.id
 )
   }
 });
