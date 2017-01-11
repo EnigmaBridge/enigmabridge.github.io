@@ -268,33 +268,33 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-3 p{
 	font-size: 16px;
 }
-#bloc-4 h3{
+#bloc-5 h3{
 	font-size: 17px;
 }
-#bloc-4 p{
+#bloc-5 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-5 h2{
+#bloc-6 h2{
 	font-size: 17px;
 }
-#bloc-5 a{
+#bloc-6 a{
 	font-size: 17px;
 }
-#bloc-7 h3{
+#bloc-8 h3{
 	font-size: 17px;
 }
-#bloc-7 p{
+#bloc-8 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-9 h3{
+#bloc-10 h3{
 	line-height: 26px;
 	font-size: 24px;
 }
-#bloc-9 p{
+#bloc-10 p{
 	font-size: 14px;
 	line-height: 20px;
 }
-#bloc-9 a{
+#bloc-10 a{
 	font-size: 13.000000953674316px;
 }
 #usecases h3{
@@ -319,51 +319,44 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #team p{
 	font-size: 17.000000953674316px;
 }
-#bloc-14 h2{
+#bloc-15 h2{
 	font-size: 17px;
 }
-#bloc-14 h4{
+#bloc-15 h4{
 	font-size: 16px;
 }
 #signup h4{
 	font-size: 17px;
 }
-#bloc-17 h3{
-	font-size: 17px;
-}
-#bloc-17 p{
-	font-size: 13.000000953674316px;
-}
 #bloc-18 h3{
 	font-size: 17px;
 }
 #bloc-18 p{
-	line-height: 20px;
-	font-size: 13px;
+	font-size: 13.000000953674316px;
 }
 #bloc-19 h3{
 	font-size: 17px;
 }
 #bloc-19 p{
-	font-size: 13.000000953674316px;
-}
-#bloc-20 h1{
-	font-size: 30px;
+	line-height: 20px;
+	font-size: 13px;
 }
 #bloc-20 h3{
+	font-size: 17px;
+}
+#bloc-20 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-21 h1{
 	font-size: 30px;
 }
 #bloc-21 h3{
+	font-size: 30px;
+}
+#bloc-22 h3{
 	font-size: 17px;
 }
-#bloc-21 p{
-	line-height: 25px;
-	font-size: 13px;
-}
-#bloc-24 h3{
-	font-size: 17px;
-}
-#bloc-24 p{
+#bloc-22 p{
 	line-height: 25px;
 	font-size: 13px;
 }
@@ -371,78 +364,85 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 17px;
 }
 #bloc-25 p{
-	font-size: 13px;
-}
-#bloc-25 a{
+	line-height: 25px;
 	font-size: 13px;
 }
 #bloc-26 h3{
 	font-size: 17px;
 }
 #bloc-26 p{
-	font-size: 13.000000953674316px;
+	font-size: 13px;
 }
-#bloc-27 a{
-	font-size: 17px;
-}
-#bloc-27 h1{
-	line-height: 48px;
-	font-size: 30px;
+#bloc-26 a{
+	font-size: 13px;
 }
 #bloc-27 h3{
 	font-size: 17px;
 }
-#bloc-27 img{
-	font-size: 30px;
+#bloc-27 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-28 a{
+	font-size: 17px;
 }
 #bloc-28 h1{
+	line-height: 48px;
 	font-size: 30px;
 }
-#bloc-28 p{
+#bloc-28 h3{
+	font-size: 17px;
+}
+#bloc-28 img{
+	font-size: 30px;
+}
+#bloc-29 h1{
+	font-size: 30px;
+}
+#bloc-29 p{
 	line-height: 20px;
 	font-size: 13.000000953674316px;
 }
-#bloc-29 p{
+#bloc-30 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-31 h1{
+#bloc-32 h1{
 	font-size: 50px;
 	line-height: 44px;
 }
-#bloc-31 h2{
+#bloc-32 h2{
 	font-size: 30px;
 }
-#bloc-31 a{
+#bloc-32 a{
 	font-size: 28px;
 }
-#bloc-32 h4{
+#bloc-33 h4{
 	font-size: 22px;
-}
-#bloc-32 h3{
-	font-size: 20px;
-}
-#bloc-32 p{
-	font-size: 16px;
 }
 #bloc-33 h3{
-	font-size: 22px;
+	font-size: 20px;
 }
 #bloc-33 p{
 	font-size: 16px;
 }
-#bloc-34 icon{
-	font-size: 13.000000953674316px;
-}
 #bloc-34 h3{
-	font-size: 20px;
+	font-size: 22px;
 }
 #bloc-34 p{
 	font-size: 16px;
 }
-#bloc-35 h1{
-	font-size: 22px;
+#bloc-35 icon{
+	font-size: 13.000000953674316px;
+}
+#bloc-35 h3{
+	font-size: 20px;
 }
 #bloc-35 p{
+	font-size: 16px;
+}
+#bloc-36 h1{
+	font-size: 22px;
+}
+#bloc-36 p{
 	font-size: 14px;
 }
 #gestartedpki h5{
@@ -456,43 +456,40 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 12px;
 	line-height: 18px;
 }
-#bloc-38 h1{
-	font-size: 30px;
-}
-#bloc-38 h3{
+#bloc-39 h1{
 	font-size: 30px;
 }
 #bloc-39 h3{
 	font-size: 30px;
 }
-#bloc-39 p{
+#bloc-40 h3{
+	font-size: 30px;
+}
+#bloc-40 p{
 	font-size: 17px;
 }
-#bloc-40 h3{
+#bloc-41 h3{
 	font-size: 17.000001907348633px;
 	line-height: 30px;
 }
-#bloc-40 p{
+#bloc-41 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-41 p{
+#bloc-42 p{
 	font-size: 16px;
 }
-#bloc-44 h3{
+#bloc-45 h3{
 	font-size: 17px;
 }
-#bloc-44 p{
+#bloc-45 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-47 h2{
+#bloc-48 h2{
 	font-size: 40px;
 }
-#bloc-47 h3{
+#bloc-48 h3{
 	font-size: 18px;
 	line-height: 23px;
-}
-#bloc-48 p{
-	font-size: 16px;
 }
 #bloc-49 p{
 	font-size: 16px;
@@ -500,39 +497,42 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-50 p{
 	font-size: 16px;
 }
-#bloc-51 h2{
+#bloc-51 p{
+	font-size: 16px;
+}
+#bloc-52 h2{
 	font-size: 24px;
 	line-height: 24px;
 }
-#bloc-51 h3{
+#bloc-52 h3{
 	font-size: 22px;
 }
-#bloc-53 h2{
+#bloc-54 h2{
 	font-size: 22px;
 	line-height: 28px;
 }
-#bloc-54 h3{
+#bloc-55 h3{
 	font-size: 18px;
 }
-#bloc-55 h3{
+#bloc-56 h3{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-57 h3{
+#bloc-58 h3{
 	font-size: 16px;
 	line-height: 26px;
 }
-#bloc-61 h3{
+#bloc-62 h3{
 	font-size: 18px;
 	line-height: 24px;
 }
-#bloc-62 h3{
+#bloc-63 h3{
 	font-size: 18px;
 }
-#bloc-69 h3{
+#bloc-70 h3{
 	font-size: 17px;
 }
-#bloc-69 a{
+#bloc-70 a{
 	font-size: 17px;
 }
 
