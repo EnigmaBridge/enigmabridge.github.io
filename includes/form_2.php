@@ -11,7 +11,7 @@
 	$to = 'enigmabridgecomsupport@enigmabridge.freshdesk.com'; // Email submissions are sent to this email
 
 	// Create email	
-	$email_subject = "Message from EB-webSite.";
+	$email_subject = "Message from enigmabridge.com.";
 	$email_body = "You have received a new message. \n\n".
 				  "Name2: $name2 \nEmail2: $email2 \nMessage2: $message2 \n";
 	$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
