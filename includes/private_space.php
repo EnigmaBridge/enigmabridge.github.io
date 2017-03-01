@@ -1,21 +1,21 @@
 <?php	
-	if(empty($_POST['email6']) && strlen($_POST['email6']) == 0)
+	if(empty($_POST['space_admin_email']) && strlen($_POST['space_admin_email']) == 0)
 	{
 		return false;
 	}
 	
-	$email6 = $_POST['email6'];
+	$space_admin_email = $_POST['space_admin_email'];
 	$region = $_POST['region'];
 	
-	$to = 'support@enigmabridge.com'; // Email submissions are sent to this email
+	$to = 'enigmabridgecomsupport@enigmabridge.freshdesk.com'; // Email submissions are sent to this email
 
 	// Create email	
 	$email_subject = "Message from enigmabridge.com.";
 	$email_body = "You have received a new message. \n\n".
-				  "Email6: $email6 \nRegion: $region \n";
+				  "Space_Admin_Email: $space_admin_email \nRegion: $region \n";
 	$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
 	$headers .= "From: privatespace@enigmabridge.com\n";
-	$headers .= "Reply-To: $email6";	
+	$headers .= "Reply-To: $space_admin_email";	
 	
 	mail($to,$email_subject,$email_body,$headers); // Post message
 	return true;			
