@@ -119,14 +119,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Group Styles */
 
 .bloc-group{
-	width:100%;
-	display:table;
-	table-layout: fixed;
+	display:flex;
 }
 .bloc-group .bloc{
-	position:relative;
-	display: table-cell;
-	vertical-align: top;
+	flex: 1;
 }
 .bloc-tile-2{
 	width:50%;
@@ -257,7 +253,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 30px;
 }
 #bloc-1 p{
-	font-size: 16px;
+	font-size: 18px;
 }
 #bloc-2 h3{
 	font-size: 17px;
@@ -265,36 +261,39 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-2 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-3 p{
+#bloc-4 p{
+	font-size: 18px;
+}
+#control p{
 	font-size: 16px;
 }
-#bloc-5 h3{
+#bloc-6 h3{
 	font-size: 17px;
 }
-#bloc-5 p{
+#bloc-6 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-6 h2{
+#bloc-7 h2{
 	font-size: 17px;
 }
-#bloc-6 a{
+#bloc-7 a{
 	font-size: 17px;
 }
-#bloc-8 h3{
+#bloc-9 h3{
 	font-size: 17px;
 }
-#bloc-8 p{
+#bloc-9 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-10 h3{
-	line-height: 26px;
+#bloc-11 h3{
 	font-size: 24px;
+	line-height: 26px;
 }
-#bloc-10 p{
+#bloc-11 p{
 	font-size: 14px;
 	line-height: 20px;
 }
-#bloc-10 a{
+#bloc-11 a{
 	font-size: 13.000000953674316px;
 }
 #usecases h3{
@@ -319,51 +318,44 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #team p{
 	font-size: 17.000000953674316px;
 }
-#bloc-15 h2{
+#bloc-16 h2{
 	font-size: 17px;
 }
-#bloc-15 h4{
+#bloc-16 h4{
 	font-size: 16px;
 }
 #signup h4{
 	font-size: 17px;
 }
-#bloc-18 h3{
-	font-size: 17px;
-}
-#bloc-18 p{
-	font-size: 13.000000953674316px;
-}
 #bloc-19 h3{
 	font-size: 17px;
 }
 #bloc-19 p{
-	line-height: 20px;
-	font-size: 13px;
+	font-size: 13.000000953674316px;
 }
 #bloc-20 h3{
 	font-size: 17px;
 }
 #bloc-20 p{
-	font-size: 13.000000953674316px;
-}
-#bloc-21 h1{
-	font-size: 30px;
+	line-height: 20px;
+	font-size: 13px;
 }
 #bloc-21 h3{
+	font-size: 17px;
+}
+#bloc-21 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-22 h1{
 	font-size: 30px;
 }
 #bloc-22 h3{
+	font-size: 30px;
+}
+#bloc-23 h3{
 	font-size: 17px;
 }
-#bloc-22 p{
-	line-height: 25px;
-	font-size: 13px;
-}
-#bloc-25 h3{
-	font-size: 17px;
-}
-#bloc-25 p{
+#bloc-23 p{
 	line-height: 25px;
 	font-size: 13px;
 }
@@ -371,78 +363,85 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 17px;
 }
 #bloc-26 p{
-	font-size: 13px;
-}
-#bloc-26 a{
+	line-height: 25px;
 	font-size: 13px;
 }
 #bloc-27 h3{
 	font-size: 17px;
 }
 #bloc-27 p{
-	font-size: 13.000000953674316px;
+	font-size: 13px;
 }
-#bloc-28 a{
-	font-size: 17px;
-}
-#bloc-28 h1{
-	line-height: 48px;
-	font-size: 30px;
+#bloc-27 a{
+	font-size: 13px;
 }
 #bloc-28 h3{
 	font-size: 17px;
 }
-#bloc-28 img{
-	font-size: 30px;
+#bloc-28 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-29 a{
+	font-size: 17px;
 }
 #bloc-29 h1{
+	line-height: 48px;
 	font-size: 30px;
 }
-#bloc-29 p{
+#bloc-29 h3{
+	font-size: 17px;
+}
+#bloc-29 img{
+	font-size: 30px;
+}
+#bloc-30 h1{
+	font-size: 30px;
+}
+#bloc-30 p{
 	line-height: 20px;
 	font-size: 13.000000953674316px;
 }
-#bloc-30 p{
+#bloc-31 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-32 h1{
+#bloc-33 h1{
 	font-size: 50px;
 	line-height: 44px;
 }
-#bloc-32 h2{
+#bloc-33 h2{
 	font-size: 30px;
 }
-#bloc-32 a{
+#bloc-33 a{
 	font-size: 28px;
 }
-#bloc-33 h4{
+#bloc-34 h4{
 	font-size: 22px;
-}
-#bloc-33 h3{
-	font-size: 20px;
-}
-#bloc-33 p{
-	font-size: 16px;
 }
 #bloc-34 h3{
-	font-size: 22px;
+	font-size: 20px;
 }
 #bloc-34 p{
 	font-size: 16px;
 }
-#bloc-35 icon{
-	font-size: 13.000000953674316px;
-}
 #bloc-35 h3{
-	font-size: 20px;
+	font-size: 22px;
 }
 #bloc-35 p{
 	font-size: 16px;
 }
-#bloc-36 h1{
-	font-size: 22px;
+#bloc-36 icon{
+	font-size: 13.000000953674316px;
+}
+#bloc-36 h3{
+	font-size: 20px;
 }
 #bloc-36 p{
+	font-size: 16px;
+}
+#bloc-37 h1{
+	font-size: 22px;
+}
+#bloc-37 p{
 	font-size: 14px;
 }
 #gestartedpki h5{
@@ -456,43 +455,40 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 12px;
 	line-height: 18px;
 }
-#bloc-39 h1{
-	font-size: 30px;
-}
-#bloc-39 h3{
+#bloc-40 h1{
 	font-size: 30px;
 }
 #bloc-40 h3{
 	font-size: 30px;
 }
-#bloc-40 p{
+#bloc-41 h3{
+	font-size: 30px;
+}
+#bloc-41 p{
 	font-size: 17px;
 }
-#bloc-41 h3{
+#bloc-42 h3{
 	font-size: 17.000001907348633px;
 	line-height: 30px;
 }
-#bloc-41 p{
+#bloc-42 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-42 p{
+#bloc-43 p{
 	font-size: 16px;
 }
-#bloc-45 h3{
+#bloc-46 h3{
 	font-size: 17px;
 }
-#bloc-45 p{
+#bloc-46 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-48 h2{
+#bloc-49 h2{
 	font-size: 40px;
 }
-#bloc-48 h3{
+#bloc-49 h3{
 	font-size: 18px;
 	line-height: 23px;
-}
-#bloc-49 p{
-	font-size: 16px;
 }
 #bloc-50 p{
 	font-size: 16px;
@@ -500,39 +496,51 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-51 p{
 	font-size: 16px;
 }
-#bloc-52 h2{
+#bloc-52 p{
+	font-size: 16px;
+}
+#bloc-53 h2{
 	font-size: 24px;
 	line-height: 24px;
 }
-#bloc-52 h3{
+#bloc-53 h3{
 	font-size: 22px;
 }
-#bloc-54 h2{
+#bloc-55 h2{
 	font-size: 22px;
 	line-height: 28px;
 }
-#bloc-55 h3{
+#bloc-56 h3{
 	font-size: 18px;
 }
-#bloc-56 h3{
+#bloc-57 h3{
 	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-58 h3{
+#bloc-59 h3{
 	font-size: 16px;
 	line-height: 26px;
 }
-#bloc-62 h3{
+#bloc-63 h3{
 	font-size: 18px;
 	line-height: 24px;
 }
-#bloc-63 h3{
+#bloc-64 h3{
 	font-size: 18px;
 }
-#bloc-70 h3{
+#launch-ps p{
+	font-size: 16px;
+}
+#bloc-72 p{
+	font-size: 18px;
+}
+#bloc-73 p{
+	font-size: 16px;
+}
+#bloc-77 h3{
 	font-size: 17px;
 }
-#bloc-70 a{
+#bloc-77 a{
 	font-size: 17px;
 }
 
@@ -545,18 +553,19 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 .navbar-brand{
 	height:auto;
-	padding:15px 15px;
+	padding:3px 15px;
 	font-size:25px;
 	font-weight:normal;
 	font-weight:600;
+	line-height:44px;
 }
 .navbar-brand img{
 	max-height: 200px;
 	margin: 0 5px 0 0;
 	display:inline;
 }
-.navbar-brand{
-	padding: 15px 15px;
+.nav-center .navbar-brand img{
+	margin:0;
 }
 .navbar .nav{
 	padding-top: 2px;
@@ -606,7 +615,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 		color:#484848;
 	}
 	.nav-invert .site-navigation{
-		left:20px;
+		left:0;
 		right:0;
 	}
 	.nav-center{
@@ -623,6 +632,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 		position:relative;
 		width:100%;
 		margin-top:20px;
+	}
+.nav-center.mini-nav .navbar-toggle{
+	float:none;
+	margin: 10px auto 0;
 	}
 }
 .nav > li > .dropdown a{
@@ -762,6 +775,9 @@ button{
 .icon-lg{
 	font-size:60px!important;
 }
+.icon-xl{
+	font-size:100px!important;
+}
 .icon-round{
 	margin:0 auto;
 	border:2px solid transparent;
@@ -769,7 +785,7 @@ button{
 	padding: 32px 30px 26px 30px;
 	min-width:80px;
 }
-.icon-round,.icon-md,.icon-square.icon-md,.icon-rounded.icon-md{
+.icon-round.icon-md,.icon-square.icon-md,.icon-rounded.icon-md{
 	min-width: 92px;
 }
 .icon-round.icon-lg,.icon-square.icon-lg,.icon-rounded.icon-lg{
@@ -813,6 +829,9 @@ button{
 -------------------------------------------------------------- */
 .sm-shadow{
 	text-shadow:0 1px 2px rgba(0,0,0,.3);
+}
+.threeD-t{
+	text-shadow:0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25),0 20px 20px rgba(0,0,0,.15);
 }
 
 /* = Lists
@@ -958,6 +977,83 @@ iframe{
 .mb-space-grey{
 	background-image:url("img/Apple-Macbook-Space-Grey.png");
 }
+/* = Lightbox
+-------------------------------------------------------------- */
+
+a[data-lightbox]{
+	position: relative;
+	display: block;
+	text-align: center;
+}
+a[data-lightbox]:hover::before{
+	content:"+";
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+	font-size:32px;
+	width:50px;
+	height:50px;
+	margin-left:-25px;
+	border-radius: 50%;
+	background:rgba(0,0,0,.6);
+	color:#FFF;
+	font-weight:100;
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+a[data-lightbox]:hover img{
+	opacity: 0.6;
+	-webkit-animation-fill-mode: none;
+	animation-fill-mode:none;
+}
+#lightbox-modal .modal-dialog{
+	width:90%;
+	max-width:900px;
+	margin:30px auto 0;
+}
+#lightbox-modal .modal-dialog img{
+	margin: 0 auto;
+}
+.lightbox-caption{
+	padding: 20px;
+	color: #FFF;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	bottom: 5px;
+}
+.close-lightbox{
+	display: none;
+	font-size: 40px;
+	position: absolute;
+	top:8px;
+	right:20px;
+	z-index: 20;
+}
+.next-lightbox, .prev-lightbox{
+	font-size:20px;
+	color:rgba(255,255,255,.4);
+	transition: all .2s ease-in-out;
+	position: absolute;
+	top:50%;
+	z-index:1;
+}
+.next-lightbox{
+	right:25px;
+}
+.prev-lightbox{
+	left:25px;
+}
+.prev-lightbox:hover, .next-lightbox:hover{
+	color:rgba(255,255,255,.9);
+}
+
+/* Hide Object */
+.object-hidden{
+	display:none;
+}
 
 /* = Custom Styling
 -------------------------------------------------------------- */
@@ -973,8 +1069,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .hero-bloc-text-sub{
 	font-size:36px;
-}
-.lake-hero-bloc{
 }
 .lake-hero-text{
 	font-family:"Josefin Sans";
@@ -1037,8 +1131,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .lake-hero-text-sub-s{
 	font-size:34px;
 }
-.https{
-}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1048,11 +1140,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-white{
 	background-color:#ffffff;
 }
-.bgc-dark-jungle-green{
-	background-color:#1E1E1E;
-}
 .bgc-rich-electric-blue{
 	background-color:#00A7D6;
+}
+.bgc-rich-electric-blue-2{
+	background-color:#00A7D6;
+}
+.bgc-onyx{
+	background-color:#101010;
 }
 /* Text colour styles */
 
@@ -1065,8 +1160,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-white{
 	color:#ffffff!important;
 }
-.tc-dark-jungle-green{
-	color:#1E1E1E!important;
+.tc-rich-electric-blue-2{
+	color:#00A7D6!important;
 }
 .bgc-{
 	background-color:#000000;
@@ -1089,12 +1184,22 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background:#787878;
 	color:#FFFFFF!important;
 }
+.wire-btn-rich-electric-blue{
+	color:#00A7D6!important;
+	border-color:#00A7D6!important;
+}
 /* Link colour styles */
 
 .ltc-rich-electric-blue{
 	color:#00A7D6!important;
 }
 .ltc-rich-electric-blue:hover{
+	color:#0086ab!important;
+}
+.ltc-rich-electric-blue-2{
+	color:#00A7D6!important;
+}
+.ltc-rich-electric-blue-2:hover{
 	color:#0086ab!important;
 }
 .ltc-white{
@@ -1105,13 +1210,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 /* Icon colour styles */
 
-.icon-white{
-	color:#ffffff!important;
-	border-color:#ffffff!important;
-}
 .icon-rich-electric-blue{
 	color:#00A7D6!important;
 	border-color:#00A7D6!important;
+}
+.icon-white{
+	color:#ffffff!important;
+	border-color:#ffffff!important;
 }
 
 /* Bloc image backgrounds */
@@ -1152,6 +1257,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-clouds-1200px-opt{
 	background-image:url("img/clouds_1200px_opt.jpg");
 }
+.bg-cloudSpaces{
+	background-image:url('img/cloudSpaces.jpg');
+}
 
 
 
@@ -1174,7 +1282,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		max-width:80%
     }
 	.nav-center.navbar .nav{
-		max-width:100%}
+		max-width:100%
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {.b-parallax{background-attachment:scroll;}}
@@ -1183,6 +1291,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     .container{width:100%;}
     .b-parallax{background-attachment:scroll;}
     .page-container, #hero-bloc{overflow-x: hidden;position: relative;} /* Prevent unwanted side scroll on mobile */
+    .bloc-group, .bloc-group .bloc{display:block;width:100%;}
+    .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{padding-left: 10px;padding-right: 10px;}
 }
 @media (max-width: 767px)
 {
@@ -1202,14 +1312,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     }
     #hero-bloc h3{
         font-size:25px;
-    }
-    .bloc{
-        padding-left: 0; 
-        padding-right: 0;  
-        -webkit-background-size: auto 200%;
-        -moz-background-size: auto 200%;
-        -o-background-size: auto 200%;
-        background-size: auto 200%;
     }
     .b-parallax{
         background-attachment:scroll;
@@ -1270,8 +1372,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     }
     .navbar-brand img{
         max-height: 40px;
-        width:auto;
-        margin: -10px 10px 0 0;    
+        width:auto;   
     }
     .nav-invert .navbar-header{
         float: none;
@@ -1279,14 +1380,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     }
     .nav-invert .navbar-toggle{
         float:left; 
-    }
-    .bloc-group .bloc{
-         display:block;
-         width:100%;
-     }
-    .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
-	   padding-left: 10px;
-	   padding-right: 10px;
     }
     .bloc-xxl,.bloc-xl,.bloc-lg{
         padding: 40px 0;
@@ -1331,6 +1424,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     }
 }
 
+@media (max-width: 400px)
+{    
+    .bloc{
+        padding-left: 0; 
+        padding-right: 0;  
+        -webkit-background-size: auto 200%;
+        -moz-background-size: auto 200%;
+        -o-background-size: auto 200%;
+        background-size: auto 200%;
+    }
+}
+
 @media (max-width: 768px){
 	.bloc-group-text-vc, .mobile .bloc-group-text-vc{
 	margin-top:0%;
@@ -1339,7 +1444,40 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:10%;
 }
  }
-
+/* Drop Down Navigation */
+@media (min-width: 767px) and (max-width: 768px){
+	
+.mini-nav .special-dropdown-nav .site-navigation{
+	display: block;
+	position: absolute;
+	top: 80%;
+	z-index: 1000;
+	float: left;
+	min-width: 160px;
+	padding: 5px 0;
+	margin: 2px 0 0;
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.mini-nav .special-dropdown-nav .site-navigation li{
+	width:100%;
+}
+.special-dropdown-nav.collapsing{
+	transition: height 0.001s;
+}
+.mini-nav .special-dropdown-nav .site-navigation li a{
+	color: rgba(0,0,0,.6)!important;
+}
+ }
 @media (max-width: 420px){
 	.lake-hero-text{
 	font-size:38px;
