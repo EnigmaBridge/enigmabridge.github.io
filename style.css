@@ -528,11 +528,14 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-64 h3{
 	font-size: 18px;
 }
-#launch-ps p{
+#bloc-70 p{
 	font-size: 16px;
 }
-#bloc-72 p{
+#launch-ps p{
 	font-size: 18px;
+}
+#steps p{
+	font-size: 16px;
 }
 #bloc-73 p{
 	font-size: 16px;
@@ -1262,7 +1265,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/clouds_1200px_opt.jpg");
 }
 .bg-cloudSpaces{
-	background-image:url('img/cloudSpaces.jpg');
+	background-image:url("img/cloudSpaces.jpg");
 }
 
 
