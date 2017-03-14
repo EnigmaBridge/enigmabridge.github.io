@@ -151,6 +151,22 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 
 
+/* Background Textures */
+
+.bloc-bg-texture::before{
+	content:"";
+	background-size: 2px 2px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right:0;
+}
+.texture-darken::before{
+	background: rgba(0,0,0,0.5);
+}
+
+
 /* Background Effects */
 
 .b-parallax{
@@ -358,7 +374,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 13.000000953674316px;
 }
 #bloc-22 h1{
-	font-size: 30px;
+	line-height: 70px;
+	font-size: 60px;
 }
 #bloc-22 h3{
 	font-size: 30px;
@@ -498,6 +515,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 18px;
 	line-height: 23px;
 }
+#bloc-50 h3{
+	line-height: 24px;
+}
 #bloc-50 p{
 	font-size: 16px;
 }
@@ -535,6 +555,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 #bloc-64 h3{
 	font-size: 18px;
+	line-height: 24px;
 }
 #what-is-ps p{
 	font-size: 16px;
@@ -1183,6 +1204,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-{
 	background-color:#000000;
 }
+.tc-anti-flash-white{
+	color:#F0F0F0!important;
+}
 /* Button colour styles */
 
 .btn-rich-electric-blue{
@@ -1263,17 +1287,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-Screen-Shot-2016-08-27-at-10-18-30{
 	background-image:url("img/ScreenShot2016-08-27at10.18.30.png");
 }
-.bg-lines-h-bg{
-	background-image:url("img/lines-h-bg.png");
-}
 .bg-lines-dl{
 	background-image:url("img/lines-dl.png");
+}
+.bg-golden-gate-overlay{
+	background-image:url("img/golden-gate-overlay.png");
 }
 .bg-Screen-Shot-2016-08-27-at-10-18-30{
 	background-image:url("img/Screen%20Shot%202016-08-27%20at%2010.18.30.png");
 }
-.bg-bigstock-Future-technology-Touch-butto-99366956-min{
-	background-image:url("img/bigstock-Future-technology-Touch-butto-99366956-min.jpg");
+.bg-golden-gate-overlay{
+	background-image:url("img/golden-gate-overlay.png");
 }
 .bg-s3x-0769-911-small{
 	background-image:url("img/s3x-0769-911_small.jpg");
@@ -1292,6 +1316,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-cloudSpaces{
 	background-image:url("img/cloudSpaces.jpg");
+}
+.bg-golden-gate-overlay{
+	background-image:url('img/golden-gate-overlay.png');
 }
 
 
