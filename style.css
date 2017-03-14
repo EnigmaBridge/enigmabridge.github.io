@@ -99,22 +99,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	color: rgba(255,255,255,1);
 }
 
-/* = Full Width Blocs 
--------------------------------------------------------------- */
-
-.full-width-bloc{
-	padding-left:0;
-	padding-right:0;
-}
-.full-width-bloc .container{
-	width:100%;
-	max-width:100%!important;
-}
-.full-width-bloc .carousel img{
-	width:100%;
-	height:auto;
-}
-
 
 /* Group Styles */
 
@@ -148,6 +132,26 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 .bg-repeat{
 	background:repeat;
+}
+
+
+/* Background Textures */
+
+.bloc-bg-texture::before{
+	content:"";
+	background-size: 2px 2px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right:0;
+}
+.texture-geometry-shapes::before{
+	background: url("img/texture-geometry-shapes.png");
+	background-size: 280px 280px;
+}
+.texture-darken::before{
+	background: rgba(0,0,0,0.5);
 }
 
 
@@ -246,6 +250,17 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	margin-top:80px;
 }
 
+/* Column No Gutters */
+
+.row-no-gutters{
+	margin-right:0;
+	margin-left:0;
+}
+.row.row-no-gutters > [class^="col-"],.row.row-no-gutters > [class*=" col-"] {
+	padding-right: 0;
+	padding-left: 0;
+}
+
 /* Bloc text custom styling */
 
 #bloc-1 h2{
@@ -324,7 +339,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-16 h4{
 	font-size: 16px;
 }
-#signup h4{
+#form-contact-us h4{
 	font-size: 17px;
 }
 #bloc-19 h3{
@@ -347,7 +362,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 13.000000953674316px;
 }
 #bloc-22 h1{
-	font-size: 30px;
+	line-height: 70px;
+	font-size: 60px;
 }
 #bloc-22 h3{
 	font-size: 30px;
@@ -461,18 +477,18 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-40 h3{
 	font-size: 30px;
 }
-#bloc-41 h3{
-	font-size: 30px;
+#bloc-41 h1{
+	font-size: 44px;
 }
 #bloc-41 p{
-	font-size: 17px;
+	font-size: 26px;
 }
 #bloc-42 h3{
 	font-size: 17.000001907348633px;
 	line-height: 30px;
 }
 #bloc-42 p{
-	font-size: 13.000000953674316px;
+	font-size: 18px;
 }
 #bloc-43 p{
 	font-size: 16px;
@@ -483,15 +499,14 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-46 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-49 h2{
+#bloc-48 h1{
 	font-size: 40px;
 }
-#bloc-49 h3{
-	font-size: 18px;
-	line-height: 23px;
-}
 #bloc-50 p{
-	font-size: 16px;
+	font-size: 22px;
+}
+#bloc-51 h3{
+	line-height: 24px;
 }
 #bloc-51 p{
 	font-size: 16px;
@@ -499,45 +514,55 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-52 p{
 	font-size: 16px;
 }
-#bloc-53 h2{
+#bloc-53 p{
+	font-size: 16px;
+}
+#bloc-54 h2{
 	font-size: 24px;
 	line-height: 24px;
 }
-#bloc-53 h3{
+#bloc-54 h3{
 	font-size: 22px;
 }
-#bloc-55 h2{
+#bloc-56 h2{
 	font-size: 22px;
 	line-height: 28px;
 }
-#bloc-56 h3{
-	font-size: 18px;
-}
 #bloc-57 h3{
 	font-size: 18px;
+}
+#bloc-58 h3{
+	font-size: 18px;
 	line-height: 26px;
 }
-#bloc-59 h3{
+#bloc-60 h3{
 	font-size: 16px;
 	line-height: 26px;
-}
-#bloc-63 h3{
-	font-size: 18px;
-	line-height: 24px;
 }
 #bloc-64 h3{
 	font-size: 18px;
+	line-height: 24px;
 }
-#bloc-70 p{
+#bloc-65 h3{
+	font-size: 18px;
+	line-height: 24px;
+}
+#what-is-ps p{
 	font-size: 16px;
 }
+#launch-ps h1{
+	font-size: 30px;
+}
 #launch-ps p{
+	font-size: 16px;
+}
+#launch-ps h6{
 	font-size: 18px;
 }
 #steps p{
 	font-size: 16px;
 }
-#bloc-73 p{
+#bloc-74 p{
 	font-size: 16px;
 }
 #bloc-77 h3{
@@ -1149,6 +1174,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-rich-electric-blue-2{
 	background-color:#00A7D6;
 }
+.bgc-anti-flash-white{
+	background-color:#F0F0F0;
+}
 .bgc-onyx{
 	background-color:#101010;
 }
@@ -1169,6 +1197,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-{
 	background-color:#000000;
 }
+.tc-anti-flash-white{
+	color:#F0F0F0!important;
+}
 /* Button colour styles */
 
 .btn-rich-electric-blue{
@@ -1179,6 +1210,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background:#0086ab;
 	color:#FFFFFF!important;
 }
+.btn-onyx{
+	background:#101010;
+	color:#FFFFFF!important;
+}
+.btn-onyx:hover{
+	background:#0d0d0d;
+	color:#FFFFFF!important;
+}
 .btn-manatee{
 	background:#969696;
 	color:#FFFFFF!important;
@@ -1187,9 +1226,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background:#787878;
 	color:#FFFFFF!important;
 }
-.wire-btn-rich-electric-blue{
-	color:#00A7D6!important;
-	border-color:#00A7D6!important;
+.btn-rich-electric-blue-2{
+	background:#00A7D6;
+	color:#FFFFFF!important;
+}
+.btn-rich-electric-blue-2:hover{
+	background:#0086ab;
+	color:#FFFFFF!important;
 }
 /* Link colour styles */
 
@@ -1213,17 +1256,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 /* Icon colour styles */
 
-.icon-rich-electric-blue{
-	color:#00A7D6!important;
-	border-color:#00A7D6!important;
+.icon-onyx{
+	color:#101010!important;
+	border-color:#101010!important;
 }
 .icon-white{
 	color:#ffffff!important;
 	border-color:#ffffff!important;
 }
-.icon-onyx{
-	color:#101010!important;
-	border-color:#101010!important;
+.icon-rich-electric-blue{
+	color:#00A7D6!important;
+	border-color:#00A7D6!important;
 }
 
 /* Bloc image backgrounds */
@@ -1237,17 +1280,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-Screen-Shot-2016-08-27-at-10-18-30{
 	background-image:url("img/ScreenShot2016-08-27at10.18.30.png");
 }
-.bg-lines-h-bg{
-	background-image:url("img/lines-h-bg.png");
-}
 .bg-lines-dl{
 	background-image:url("img/lines-dl.png");
+}
+.bg-golden-gate-overlay{
+	background-image:url("img/golden-gate-overlay.png");
 }
 .bg-Screen-Shot-2016-08-27-at-10-18-30{
 	background-image:url("img/Screen%20Shot%202016-08-27%20at%2010.18.30.png");
 }
-.bg-bigstock-Future-technology-Touch-butto-99366956-min{
-	background-image:url("img/bigstock-Future-technology-Touch-butto-99366956-min.jpg");
+.bg-golden-gate-overlay{
+	background-image:url("img/golden-gate-overlay.png");
 }
 .bg-s3x-0769-911-small{
 	background-image:url("img/s3x-0769-911_small.jpg");
@@ -1266,6 +1309,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-cloudSpaces{
 	background-image:url("img/cloudSpaces.jpg");
+}
+.bg-golden-gate-overlay{
+	background-image:url('img/golden-gate-overlay.png');
+}
+.bg-clouds-1200px-opt{
+	background-image:url('img/clouds_1200px_opt.jpg');
+}
+.bg-cloudSpaces{
+	background-image:url('img/cloudSpaces.jpg');
 }
 
 
@@ -1450,7 +1502,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .hero-text-vc, .mobile .hero-text-vc{
 	margin-top:10%;
 }
- }
+ div[class^="col-"], div[class*=" col-"]{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.full-width-bloc div[class^="col-"], .full-width-bloc div[class*=" col-"]{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+}
 /* Drop Down Navigation */
 @media (min-width: 767px) and (max-width: 768px){
 	
