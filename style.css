@@ -1320,6 +1320,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-golden-gate-overlay{
 	background-image:url('img/golden-gate-overlay.png');
 }
+.bg-clouds-1200px-opt{
+	background-image:url('img/clouds_1200px_opt.jpg');
+}
+.bg-cloudSpaces{
+	background-image:url('img/cloudSpaces.jpg');
+}
 
 
 
