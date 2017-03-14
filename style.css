@@ -246,6 +246,17 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	margin-top:80px;
 }
 
+/* Column No Gutters */
+
+.row-no-gutters{
+	margin-right:0;
+	margin-left:0;
+}
+.row.row-no-gutters > [class^="col-"],.row.row-no-gutters > [class*=" col-"] {
+	padding-right: 0;
+	padding-left: 0;
+}
+
 /* Bloc text custom styling */
 
 #bloc-1 h2{
@@ -528,10 +539,13 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-64 h3{
 	font-size: 18px;
 }
-#bloc-70 p{
+#what-is-ps p{
 	font-size: 16px;
 }
 #launch-ps p{
+	font-size: 16px;
+}
+#launch-ps h6{
 	font-size: 18px;
 }
 #steps p{
@@ -540,10 +554,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-73 p{
 	font-size: 16px;
 }
-#bloc-77 h3{
+#bloc-76 h3{
 	font-size: 17px;
 }
-#bloc-77 a{
+#bloc-76 a{
 	font-size: 17px;
 }
 
@@ -1179,12 +1193,28 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background:#0086ab;
 	color:#FFFFFF!important;
 }
+.btn-onyx{
+	background:#101010;
+	color:#FFFFFF!important;
+}
+.btn-onyx:hover{
+	background:#0d0d0d;
+	color:#FFFFFF!important;
+}
 .btn-manatee{
 	background:#969696;
 	color:#FFFFFF!important;
 }
 .btn-manatee:hover{
 	background:#787878;
+	color:#FFFFFF!important;
+}
+.btn-rich-electric-blue-2{
+	background:#00A7D6;
+	color:#FFFFFF!important;
+}
+.btn-rich-electric-blue-2:hover{
+	background:#0086ab;
 	color:#FFFFFF!important;
 }
 .wire-btn-rich-electric-blue{
@@ -1213,17 +1243,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 /* Icon colour styles */
 
-.icon-rich-electric-blue{
-	color:#00A7D6!important;
-	border-color:#00A7D6!important;
+.icon-onyx{
+	color:#101010!important;
+	border-color:#101010!important;
 }
 .icon-white{
 	color:#ffffff!important;
 	border-color:#ffffff!important;
 }
-.icon-onyx{
-	color:#101010!important;
-	border-color:#101010!important;
+.icon-rich-electric-blue{
+	color:#00A7D6!important;
+	border-color:#00A7D6!important;
 }
 
 /* Bloc image backgrounds */
@@ -1450,7 +1480,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .hero-text-vc, .mobile .hero-text-vc{
 	margin-top:10%;
 }
- }
+ div[class^="col-"], div[class*=" col-"]{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.full-width-bloc div[class^="col-"], .full-width-bloc div[class*=" col-"]{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+}
 /* Drop Down Navigation */
 @media (min-width: 767px) and (max-width: 768px){
 	
