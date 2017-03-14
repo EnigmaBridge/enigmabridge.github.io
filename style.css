@@ -162,6 +162,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	left:0;
 	right:0;
 }
+.texture-geometry-shapes::before{
+	background: url("img/texture-geometry-shapes.png");
+	background-size: 280px 280px;
+}
 .texture-darken::before{
 	background: rgba(0,0,0,0.5);
 }
@@ -489,8 +493,11 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-40 h3{
 	font-size: 30px;
 }
+#bloc-41 h1{
+	font-size: 44px;
+}
 #bloc-41 p{
-	font-size: 18px;
+	font-size: 26px;
 }
 #bloc-42 h3{
 	font-size: 17.000001907348633px;
@@ -509,11 +516,11 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 13.000000953674316px;
 }
 #bloc-49 h2{
-	font-size: 40px;
+	font-size: 48px;
 }
 #bloc-49 h3{
-	font-size: 18px;
-	line-height: 23px;
+	font-size: 24px;
+	line-height: 32px;
 }
 #bloc-50 h3{
 	line-height: 24px;
@@ -701,6 +708,10 @@ nav .caret{
 	border-bottom-color:transparent;
 	margin: 6px -5px 0 0!important;
 	float: right;
+}
+.hero .hero-nav{
+	padding-left:inherit;
+	padding-right:inherit;
 }
 
 /* = Bric adjustment margins
