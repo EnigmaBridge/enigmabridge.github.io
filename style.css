@@ -362,8 +362,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 13.000000953674316px;
 }
 #bloc-22 h1{
-	line-height: 70px;
 	font-size: 60px;
+	line-height: 70px;
 }
 #bloc-22 h3{
 	font-size: 30px;
@@ -803,9 +803,6 @@ button{
 .icon-lg{
 	font-size:60px!important;
 }
-.icon-xl{
-	font-size:100px!important;
-}
 .icon-round{
 	margin:0 auto;
 	border:2px solid transparent;
@@ -857,9 +854,6 @@ button{
 -------------------------------------------------------------- */
 .sm-shadow{
 	text-shadow:0 1px 2px rgba(0,0,0,.3);
-}
-.threeD-t{
-	text-shadow:0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25),0 20px 20px rgba(0,0,0,.15);
 }
 
 /* = Lists
@@ -1078,11 +1072,6 @@ a[data-lightbox]:hover img{
 	color:rgba(255,255,255,.9);
 }
 
-/* Hide Object */
-.object-hidden{
-	display:none;
-}
-
 /* = Custom Styling
 -------------------------------------------------------------- */
 
@@ -1097,6 +1086,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .hero-bloc-text-sub{
 	font-size:36px;
+	background-color:rgba(0,167,215,0.0);
 }
 .lake-hero-text{
 	font-family:"Josefin Sans";
@@ -1159,6 +1149,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .lake-hero-text-sub-s{
 	font-size:34px;
 }
+.prices-options{
+	font-size:36px;
+	text-align:center;
+	background-color:rgba(0,0,0,0.0);
+	border-color:rgba(0,167,215,0.0)color:#00A7D7!important;
+	line-height:50px;
+	height:5px;
+}
+.selection-price{
+	color:#00A7D7!important;
+	font-size:28px;
+	text-decoration:none;
+	text-transform:none;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1196,9 +1200,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-{
 	background-color:#000000;
-}
-.tc-anti-flash-white{
-	color:#F0F0F0!important;
 }
 /* Button colour styles */
 
@@ -1311,13 +1312,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/cloudSpaces.jpg");
 }
 .bg-golden-gate-overlay{
-	background-image:url('img/golden-gate-overlay.png');
+	background-image:url("img/golden-gate-overlay.png");
 }
 .bg-clouds-1200px-opt{
-	background-image:url('img/clouds_1200px_opt.jpg');
+	background-image:url("img/clouds_1200px_opt.jpg");
 }
 .bg-cloudSpaces{
-	background-image:url('img/cloudSpaces.jpg');
+	background-image:url("img/cloudSpaces.jpg");
 }
 
 
