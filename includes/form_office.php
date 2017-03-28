@@ -12,7 +12,7 @@
 	$to = 'enigmabridgecomsupport@enigmabridge.freshdesk.com'; // Email submissions are sent to this email
 
 	// Create email	
-	$email_subject = "Message from enigmabridge.com.";
+	$email_subject = "Request for Private Space";
 	$email_body = "You have received a new message. \n\n".
 				  "Space_Admin_Email_Off: $space_admin_email_off \nOfficelocation: $officelocation \nOfficemessage: $officemessage \nOfficesize: $officesize \n";
 	$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
