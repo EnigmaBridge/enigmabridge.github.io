@@ -554,7 +554,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 18px;
 }
 #launch-ps h2{
-	font-size: 24px;
+	font-size: 30px;
+	line-height: 40px;
 }
 #launch-ps h3{
 	font-size: 20px;
@@ -1187,6 +1188,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:#00A7D6;
 }
 .bgc-rich-electric-blue-2{
+	background-color:#00A7D6;
+}
+.bgc-rich-electric-blue-3{
 	background-color:#00A7D6;
 }
 .bgc-anti-flash-white{
