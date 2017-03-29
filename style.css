@@ -550,25 +550,33 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #what-is-ps p{
 	font-size: 16px;
 }
-#launch-ps h1{
-	font-size: 30px;
+#bloc-72 p{
+	font-size: 18px;
+}
+#launch-ps h2{
+	font-size: 24px;
+}
+#launch-ps h3{
+	font-size: 20px;
 }
 #launch-ps p{
-	font-size: 16px;
-}
-#launch-ps h6{
+	line-height: 25px;
 	font-size: 18px;
+}
+#launch-ps h5{
+	line-height: 18px;
+	font-size: 16px;
 }
 #steps p{
 	font-size: 16px;
 }
-#bloc-74 p{
+#bloc-75 p{
 	font-size: 16px;
 }
-#bloc-77 h3{
+#bloc-78 h3{
 	font-size: 17px;
 }
-#bloc-77 a{
+#bloc-78 a{
 	font-size: 17px;
 }
 
@@ -1162,6 +1170,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:28px;
 	text-decoration:none;
 	text-transform:none;
+	margin-top:40px;
+	margin-bottom:40px;
+	height:60px;
 }
 
 /* = Colour
