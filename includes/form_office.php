@@ -1,5 +1,5 @@
 <?php	
-	if(empty($_POST['space_admin_email_off']) && strlen($_POST['space_admin_email_off']) == 0 || empty($_POST['officemessage']) && strlen($_POST['officemessage']) == 0)
+	if(empty($_POST['space_admin_email_off']) && strlen($_POST['space_admin_email_off']) == 0)
 	{
 		return false;
 	}
