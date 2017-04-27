@@ -548,6 +548,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	line-height: 24px;
 }
 #what-is-ps p{
+	line-height: 22px;
 	font-size: 16px;
 }
 #bloc-72 p{
