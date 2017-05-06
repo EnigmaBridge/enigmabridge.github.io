@@ -468,8 +468,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 14px;
 }
 #pkipricing p{
-	font-size: 12px;
-	line-height: 18px;
+	line-height: 20px;
+	font-size: 14px;
 }
 #bloc-40 h1{
 	font-size: 30px;
@@ -548,8 +548,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	line-height: 24px;
 }
 #what-is-ps p{
-	line-height: 22px;
 	font-size: 16px;
+	line-height: 22px;
 }
 #bloc-72 p{
 	font-size: 18px;
@@ -1235,14 +1235,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background:#0d0d0d;
 	color:#FFFFFF!important;
 }
-.btn-manatee{
-	background:#969696;
-	color:#FFFFFF!important;
-}
-.btn-manatee:hover{
-	background:#787878;
-	color:#FFFFFF!important;
-}
 .btn-rich-electric-blue-2{
 	background:#00A7D6;
 	color:#FFFFFF!important;
@@ -1258,6 +1250,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-rich-electric-blue:hover{
 	color:#0086ab!important;
+}
+.ltc-onyx{
+	color:#101010!important;
+}
+.ltc-onyx:hover{
+	color:#0d0d0d!important;
 }
 .ltc-rich-electric-blue-2{
 	color:#00A7D6!important;
