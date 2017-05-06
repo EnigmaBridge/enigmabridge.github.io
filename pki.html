@@ -14,6 +14,8 @@
 	<script src="./js/jquery-2.1.0.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jqBootstrapValidation.js"></script>
+	<script src="./js/formHandler.js"></script>
     <title>Key Management - PKI</title>
 <script src="https://checkout.stripe.com/checkout.js"></script>
 
@@ -285,7 +287,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					Enigma Bridge Key Management Features
 				</h1>
 				<p>
-					The key management system is powered Enigma Bridge hardware encryption platform and the EJBCA PKI application from PrimeKey (one of the best KPI app around).
+					The key management system is powered Enigma Bridge hardware encryption platform and the EJBCA PKI application from PrimeKey (one of the best PKI app around).
 				</p>
 				<ul class="list-sp-md">
 					<li>
@@ -315,7 +317,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</li>
 				</ul>
 				<p>
-					<br>For a full of the features of EJBCA PKI application, please visit <a class="ltc-rich-electric-blue" href="https://www.ejbca.org/features.html" target="_blank">PrimeKey website</a>.
+					<br>For a full of the features of EJBCA PKI application, please visit <a class="ltc-onyx" href="https://www.ejbca.org/features.html" target="_blank">the PrimeKey website</a>.
 				</p>
 			</div>
 		</div>
@@ -324,12 +326,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- bloc-37 END -->
 
 <!-- gestartedpki -->
-<div class="bloc bgc-white l-bloc tc-onyx" id="gestartedpki">
+<div class="bloc tc-onyx bgc-white l-bloc" id="gestartedpki">
 	<div class="container bloc-lg">
 		<div class="row" id="b1">
 			<div class="col-sm-12">
 				<h2 class="mg-md tc-onyx" id="b">
-					Get Started
+					Get Started with 7 Days' Free Trial
 				</h2>
 				<div class="row">
 					<div class="col-sm-4">
@@ -350,7 +352,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 				<div class="text-center">
 					<div class="btn-group btn-dropdown">
-						<a href="#" class="btn dropdown-toggle btn-clean  btn-lg btn-rich-electric-blue" data-toggle="dropdown" aria-expanded="false">Launch Your PKI on Amazon AWS<span class="caret"></span></a>
+						<a href="#" class="btn dropdown-toggle btn-clean  btn-lg btn-rich-electric-blue" data-toggle="dropdown" aria-expanded="false">Launch Your Test PKI on Amazon AWS<span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
 							<li>
 								<div class="text-center">
@@ -421,7 +423,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- gestartedpki END -->
 
 <!-- pkipricing -->
-<div class="bloc tc-rich-electric-blue-2 bgc-white l-bloc" id="pkipricing">
+<div class="bloc tc-rich-electric-blue-2 bgc-white l-bloc " id="pkipricing">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-4">
@@ -461,124 +463,178 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						</ul>
 					</div>
 					<div class="panel-footer">
-						
-							<button class="btn btn-lg btn-block btn-rich-electric-blue" id="customButton">Buy Now</button>
-							
-						
+						<form id="form_pki1" novalidate success-msg="Your message has been sent and we will be in touch shortly. Please check your mailbox for an initial support ticket." fail-msg="Sorry it seems that our mail server is not responding, please email us directly at support@enigmabridge.com">
+							<div class="form-group">
+								<label>
+									Name / company*
+								</label>
+								<input id="name_pki1" class="form-control" required />
+							</div>
+							<div class="form-group">
+								<label>
+									Country*
+								</label>
+								<input class="form-control" id="country_pki1" required />
+							</div>
+							<div class="form-group">
+								<label>
+									Email*
+								</label>
+								<input id="email_pki1" class="form-control" type="email" required />
+							</div> 
+							<button class="bloc-button btn btn-lg btn-block btn-rich-electric-blue" type="submit">
+								Order Now
+							</button>
+						</form>
 					</div>
 				</div>
 				<p>
-						All prices are exclusive of VAT. The VAT rate of the country of residence will be reflected in the first invoice and added to the charge.
-					</p>
+					You can add additional details once you submit a request. A new instance will be launched within one working day of the first invoice fully paid.&nbsp;<br>&nbsp;<br>All prices are exclusive of VAT.
+				</p>
 			</div>
 			<div class="col-sm-4">
-					<div class="panel">
-						<div class="panel-heading bgc-rich-electric-blue-2">
-							<h2 class="mg-clear text-center tc-white">
-								Professional
-							</h2>
-						</div>
-						<div class="panel-body">
-							<ul class="list-unstyled list-sp-md">
-								<li>
-									<h4 class="text-center mg-clear tc-onyx">
-										<a class="ltc-rich-electric-blue" href="https://www.ejbca.org/features.html" target="_blank">Full-featured PKI system</a><br>
-									</h4>
-								</li>
-								<li>
-									<h4 class="text-center mg-clear tc-onyx">
-										FIPS 140-2 protection of keys
-									</h4>
-								</li>
-								<li>
-									<h4 class="text-center mg-clear tc-onyx">
-										Dynamic domain name
-									</h4>
-								</li>
-								<li>
-									<h4 class="text-center mg-clear tc-onyx">
-										Medium OCSP load*
-									</h4>
-								</li>
-								<li>
-									<h4 class="text-center mg-clear tc-onyx">
-										Operation Support
-									</h4>
-								</li>
-								<li>
-									<h3 class="text-center mg-md tc-rich-electric-blue">
-										£199 / month
-									</h3>
-								</li>
-							</ul>
-						</div>
-						<div class="panel-footer">
-							
-								<button class="btn btn-lg btn-block btn-rich-electric-blue" id="customButton2">Buy Now</button>
-								
-							
-						</div>
+				<div class="panel">
+					<div class="panel-heading bgc-rich-electric-blue-2">
+						<h2 class="mg-clear text-center tc-white">
+							Professional
+						</h2>
 					</div>
-					<p>
-							* we guarentee the minimum of 1,000,000 OCSP verifications in 24 hours (i.e., 700 / minute).
-						</p>
+					<div class="panel-body">
+						<ul class="list-unstyled list-sp-md">
+							<li>
+								<h4 class="text-center mg-clear tc-onyx">
+									<a class="ltc-rich-electric-blue" href="https://www.ejbca.org/features.html" target="_blank">Full-featured PKI system</a><br>
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-clear tc-onyx">
+									FIPS 140-2 protection of keys
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-clear tc-onyx">
+									Dynamic domain name
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-clear tc-onyx">
+									Low OCSP load*
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-clear tc-onyx">
+									Operation Support
+								</h4>
+							</li>
+							<li>
+								<h3 class="text-center mg-md tc-rich-electric-blue">
+									£199 / month
+								</h3>
+							</li>
+						</ul>
+					</div>
+					<div class="panel-footer">
+						<form id="form_pki2" novalidate success-msg="Your message has been sent and we will be in touch shortly. Please check your mailbox for an initial support ticket." fail-msg="Sorry it seems that our mail server is not responding, please email us directly at support@enigmabridge.com">
+							<div class="form-group">
+								<label>
+									Name / company*
+								</label>
+								<input id="name_pki2" class="form-control" required />
+							</div>
+							<div class="form-group">
+								<label>
+									Country*
+								</label>
+								<input class="form-control" id="country_pki2" />
+							</div>
+							<div class="form-group">
+								<label>
+									Email*
+								</label>
+								<input id="email_pki2" class="form-control" type="email" required />
+							</div> 
+							<button class="bloc-button btn btn-lg btn-block btn-rich-electric-blue" type="submit">
+								Order Now
+							</button>
+						</form>
+					</div>
 				</div>
+				<p>
+					* we guarentee only up to 500,000 OCSP verifications in 24 hours (i.e., 300 / minute).
+				</p>
+			</div>
 			<div class="col-sm-4">
-						<div class="panel">
-							<div class="panel-heading bgc-rich-electric-blue-2">
-								<h2 class="mg-clear text-center tc-white">
-									Enterprise
-								</h2>
-							</div>
-							<div class="panel-body">
-								<ul class="list-unstyled list-sp-md">
-									<li>
-										<h4 class="text-center mg-clear tc-onyx">
-											<a class="ltc-rich-electric-blue" href="https://www.ejbca.org/features.html" target="_blank">Full-featured PKI system</a><br>
-										</h4>
-									</li>
-									<li>
-										<h4 class="text-center mg-clear tc-onyx">
-											FIPS 140-2 protection of keys
-										</h4>
-									</li>
-									<li>
-										<h4 class="text-center mg-clear tc-onyx">
-											Dynamic domain name
-										</h4>
-									</li>
-									<li>
-										<h4 class="text-center mg-clear tc-onyx">
-											High OCSP load
-										</h4>
-									</li>
-									<li>
-										<h4 class="text-center mg-clear tc-onyx">
-											Solution support
-										</h4>
-									</li>
-									<li>
-										<h4 class="text-center mg-clear tc-onyx">
-											Common Criteria EAL4+ for PKI
-										</h4>
-									</li>
-									<li>
-										<h4 class="text-center mg-clear tc-onyx">
-											Enterprise Management
-										</h4>
-									</li>
-									<li>
-										<h3 class="text-center mg-md tc-rich-electric-blue">
-											Tailored pricing
-										</h3>
-									</li>
-								</ul>
-							</div>
-							<div class="panel-footer">
-								<a href="contact-us.html" class="btn btn-lg btn-block btn-manatee">Contact Us</a>
-							</div>
-						</div>
+				<div class="panel">
+					<div class="panel-heading bgc-rich-electric-blue-2">
+						<h2 class="mg-clear text-center tc-white">
+							Enterprise
+						</h2>
 					</div>
+					<div class="panel-body">
+						<ul class="list-unstyled list-sp-md">
+							<li>
+								<h4 class="text-center mg-clear tc-onyx">
+									<a class="ltc-rich-electric-blue" href="https://www.ejbca.org/features.html" target="_blank">Full-featured PKI system</a><br>
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-clear tc-onyx">
+									FIPS 140-2 protection of keys
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-clear tc-onyx">
+									Dynamic domain name
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-clear tc-onyx">
+									High OCSP load
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-clear tc-onyx">
+									Solution support
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-clear tc-onyx">
+									Common Criteria EAL4+ for PKI
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-clear tc-onyx">
+									Enterprise Management
+								</h4>
+							</li>
+							<li>
+								<h3 class="text-center mg-md tc-rich-electric-blue">
+									Tailored pricing
+								</h3>
+							</li>
+						</ul>
+					</div>
+					<div class="panel-footer">
+						<form id="form_pki3" novalidate success-msg="Your message has been sent and we will be in touch shortly. Please check your mailbox for an initial support ticket." fail-msg="Sorry it seems that our mail server is not responding, please email us directly at support@enigmabridge.com">
+							<div class="form-group">
+								<label>
+									Name*
+								</label>
+								<input id="name8" class="form-control" required />
+							</div>
+							<div class="form-group">
+								<label>
+									Email*
+								</label>
+								<input id="email8" class="form-control" type="email" required />
+							</div> 
+							<button class="bloc-button btn btn-lg btn-block btn-rich-electric-blue" type="submit">
+								Order Now
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
