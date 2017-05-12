@@ -402,7 +402,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 30px;
 }
 #bloc-29 h3{
-	font-size: 17px;
+	font-size: 20px;
+	line-height: 24px;
 }
 #bloc-29 img{
 	font-size: 30px;
@@ -412,10 +413,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 #bloc-30 p{
 	line-height: 20px;
-	font-size: 13.000000953674316px;
+	font-size: 16.000000953674316px;
 }
 #bloc-31 p{
-	font-size: 13.000000953674316px;
+	font-size: 16.000000953674316px;
 }
 #bloc-33 h1{
 	font-size: 50px;
