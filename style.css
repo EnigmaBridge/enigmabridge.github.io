@@ -545,61 +545,33 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 18px;
 	line-height: 24px;
 }
-#what-is-ps p{
+#bloc-71 p{
+	font-size: 16px;
+}
+#bloc-72 p{
 	font-size: 16px;
 	line-height: 22px;
 }
-#bloc-72 p{
-	font-size: 18px;
-}
-#launch-ps h2{
-	font-size: 30px;
-	line-height: 40px;
-}
-#launch-ps h3{
-	font-size: 20px;
-}
-#launch-ps p{
-	font-size: 18px;
-	line-height: 25px;
-}
-#launch-ps h5{
+#bloc-73 p{
 	font-size: 16px;
-	line-height: 18px;
+	line-height: 22px;
 }
-#steps p{
+#bloc-74 p{
 	font-size: 16px;
 }
 #bloc-75 p{
 	font-size: 16px;
 }
-#bloc-78 p{
+#bloc-76 p{
 	font-size: 16px;
 }
-#bloc-79 p{
-	font-size: 16px;
-	line-height: 22px;
-}
-#bloc-80 p{
-	line-height: 22px;
+#bloc-77 p{
 	font-size: 16px;
 }
-#bloc-81 p{
-	font-size: 16px;
-}
-#bloc-82 p{
-	font-size: 16px;
-}
-#bloc-83 p{
-	font-size: 16px;
-}
-#bloc-84 p{
-	font-size: 16px;
-}
-#bloc-86 h3{
+#bloc-79 h3{
 	font-size: 17px;
 }
-#bloc-86 a{
+#bloc-79 a{
 	font-size: 17px;
 }
 
@@ -1030,78 +1002,6 @@ iframe{
 .mb-space-grey{
 	background-image:url("img/Apple-Macbook-Space-Grey.png");
 }
-/* = Lightbox
--------------------------------------------------------------- */
-
-a[data-lightbox]{
-	position: relative;
-	display: block;
-	text-align: center;
-}
-a[data-lightbox]:hover::before{
-	content:"+";
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
-	font-size:32px;
-	width:50px;
-	height:50px;
-	margin-left:-25px;
-	border-radius: 50%;
-	background:rgba(0,0,0,.6);
-	color:#FFF;
-	font-weight:100;
-	z-index: 1;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-}
-a[data-lightbox]:hover img{
-	opacity: 0.6;
-	-webkit-animation-fill-mode: none;
-	animation-fill-mode:none;
-}
-#lightbox-modal .modal-dialog{
-	width:90%;
-	max-width:900px;
-	margin:30px auto 0;
-}
-#lightbox-modal .modal-dialog img{
-	margin: 0 auto;
-}
-.lightbox-caption{
-	padding: 20px;
-	color: #FFF;
-	background: rgba(0,0,0,.5);
-	position: absolute;
-	left: 15px;
-	right: 15px;
-	bottom: 5px;
-}
-.close-lightbox{
-	display: none;
-	font-size: 40px;
-	position: absolute;
-	top:8px;
-	right:20px;
-	z-index: 20;
-}
-.next-lightbox, .prev-lightbox{
-	font-size:20px;
-	color:rgba(255,255,255,.4);
-	transition: all .2s ease-in-out;
-	position: absolute;
-	top:50%;
-	z-index:1;
-}
-.next-lightbox{
-	right:25px;
-}
-.prev-lightbox{
-	left:25px;
-}
-.prev-lightbox:hover, .next-lightbox:hover{
-	color:rgba(255,255,255,.9);
-}
 
 /* = Custom Styling
 -------------------------------------------------------------- */
@@ -1212,9 +1112,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-rich-electric-blue-2{
 	background-color:#00A7D6;
 }
-.bgc-rich-electric-blue-3{
-	background-color:#00A7D6;
-}
 .bgc-anti-flash-white{
 	background-color:#F0F0F0;
 }
@@ -1277,12 +1174,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-onyx:hover{
 	color:#0d0d0d!important;
-}
-.ltc-rich-electric-blue-2{
-	color:#00A7D6!important;
-}
-.ltc-rich-electric-blue-2:hover{
-	color:#0086ab!important;
 }
 .ltc-white{
 	color:#ffffff!important;
