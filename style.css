@@ -301,8 +301,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	line-height: 26px;
 }
 #bloc-10 p{
-	line-height: 20px;
 	font-size: 16.000000953674316px;
+	line-height: 20px;
 }
 #bloc-10 a{
 	font-size: 13.000000953674316px;
@@ -881,7 +881,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Helvetica";
 }
 .container{
-	max-width:960px;
+	max-width:1170px;
 }
 .hero-bloc-text{
 	font-size:55px;
