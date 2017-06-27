@@ -96,6 +96,22 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	color: rgba(255,255,255,1);
 }
 
+/* = Full Width Blocs 
+-------------------------------------------------------------- */
+
+.full-width-bloc{
+	padding-left:0;
+	padding-right:0;
+}
+.full-width-bloc .container{
+	width:100%;
+	max-width:100%!important;
+}
+.full-width-bloc .carousel img{
+	width:100%;
+	height:auto;
+}
+
 
 /* Group Styles */
 
@@ -256,12 +272,15 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
+#bloc-1 h1{
+	font-size: 32px;
+}
 #bloc-1 h2{
-	line-height: 60px;
-	font-size: 30px;
+	font-size: 24px;
 }
 #bloc-1 p{
 	font-size: 18px;
+	line-height: 28px;
 }
 #bloc-2 p{
 	font-size: 18px;
@@ -281,17 +300,11 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-5 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-6 h2{
-	font-size: 17px;
-}
-#bloc-6 a{
-	font-size: 17px;
-}
-#bloc-7 p{
+#bloc-6 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-8 h3{
-	font-size: 17px;
+#bloc-8 h2{
+	font-size: 40px;
 }
 #bloc-8 p{
 	font-size: 16.000000953674316px;
@@ -299,15 +312,33 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-9 p{
 	font-size: 16px;
 }
-#bloc-11 h3{
+#bloc-11 h1{
+	font-size: 30px;
+}
+#bloc-12 h3{
+	font-size: 20px;
+}
+#bloc-12 p{
+	font-size: 16.000000953674316px;
+}
+#bloc-13 h1{
+	font-size: 30px;
+}
+#bloc-14 h3{
+	font-size: 20px;
+}
+#bloc-14 p{
+	font-size: 16.000000953674316px;
+}
+#bloc-16 h3{
 	font-size: 24px;
 	line-height: 26px;
 }
-#bloc-11 p{
+#bloc-16 p{
 	font-size: 16.000000953674316px;
 	line-height: 20px;
 }
-#bloc-11 a{
+#bloc-16 a{
 	font-size: 13.000000953674316px;
 }
 #usecases h3{
@@ -332,169 +363,169 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #team p{
 	font-size: 17.000000953674316px;
 }
-#bloc-16 h2{
+#bloc-21 h2{
 	font-size: 17px;
 }
-#bloc-16 h4{
+#bloc-21 h4{
 	font-size: 16px;
 }
 #form-contact-us h4{
 	font-size: 17px;
 }
-#bloc-19 h3{
+#bloc-24 h3{
 	font-size: 17px;
 }
-#bloc-19 p{
+#bloc-24 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-20 h3{
+#bloc-25 h3{
 	font-size: 17px;
 }
-#bloc-20 p{
+#bloc-25 p{
 	line-height: 20px;
-	font-size: 13px;
-}
-#bloc-21 h3{
-	font-size: 17px;
-}
-#bloc-21 p{
-	font-size: 13.000000953674316px;
-}
-#bloc-22 h1{
-	font-size: 60px;
-	line-height: 70px;
-}
-#bloc-22 h3{
-	font-size: 30px;
-}
-#bloc-23 h3{
-	font-size: 17px;
-}
-#bloc-23 p{
-	line-height: 25px;
 	font-size: 13px;
 }
 #bloc-26 h3{
 	font-size: 17px;
 }
 #bloc-26 p{
-	line-height: 25px;
-	font-size: 13px;
+	font-size: 13.000000953674316px;
+}
+#bloc-27 h1{
+	font-size: 60px;
+	line-height: 70px;
 }
 #bloc-27 h3{
-	font-size: 17px;
-}
-#bloc-27 p{
-	font-size: 13px;
-}
-#bloc-27 a{
-	font-size: 13px;
+	font-size: 30px;
 }
 #bloc-28 h3{
 	font-size: 17px;
 }
 #bloc-28 p{
-	font-size: 13.000000953674316px;
+	line-height: 25px;
+	font-size: 13px;
 }
-#bloc-29 a{
+#bloc-31 h3{
 	font-size: 17px;
 }
-#bloc-29 h1{
+#bloc-31 p{
+	line-height: 25px;
+	font-size: 13px;
+}
+#bloc-32 h3{
+	font-size: 17px;
+}
+#bloc-32 p{
+	font-size: 13px;
+}
+#bloc-32 a{
+	font-size: 13px;
+}
+#bloc-33 h3{
+	font-size: 17px;
+}
+#bloc-33 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-34 a{
+	font-size: 17px;
+}
+#bloc-34 h1{
 	line-height: 48px;
 	font-size: 30px;
 }
-#bloc-29 h3{
+#bloc-34 h3{
 	font-size: 20px;
 	line-height: 24px;
 }
-#bloc-29 img{
+#bloc-34 img{
 	font-size: 30px;
 }
-#bloc-30 h1{
+#bloc-35 h1{
 	font-size: 30px;
 }
-#bloc-30 p{
+#bloc-35 p{
 	line-height: 20px;
 	font-size: 16.000000953674316px;
 }
-#bloc-31 p{
+#bloc-36 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-32 h1{
+#bloc-37 h1{
 	font-size: 40px;
 }
-#bloc-34 p{
+#bloc-39 p{
 	font-size: 22px;
 }
-#bloc-35 h3{
+#bloc-40 h3{
 	line-height: 24px;
 }
-#bloc-35 p{
+#bloc-40 p{
 	font-size: 16px;
 }
-#bloc-36 p{
+#bloc-41 p{
 	font-size: 16px;
 }
-#bloc-37 p{
+#bloc-42 p{
 	font-size: 16px;
 }
-#bloc-38 h2{
+#bloc-43 h2{
 	font-size: 24px;
 	line-height: 24px;
 }
-#bloc-38 h3{
+#bloc-43 h3{
 	font-size: 22px;
 }
-#bloc-40 h2{
+#bloc-45 h2{
 	font-size: 22px;
 	line-height: 28px;
 }
-#bloc-41 h3{
+#bloc-46 h3{
 	font-size: 18px;
 }
-#bloc-42 h3{
+#bloc-47 h3{
 	font-size: 18px;
 	line-height: 26px;
-}
-#bloc-44 h3{
-	font-size: 16px;
-	line-height: 26px;
-}
-#bloc-48 h3{
-	font-size: 18px;
-	line-height: 24px;
 }
 #bloc-49 h3{
+	font-size: 16px;
+	line-height: 26px;
+}
+#bloc-53 h3{
 	font-size: 18px;
 	line-height: 24px;
 }
-#bloc-55 p{
-	font-size: 16px;
-}
-#bloc-56 p{
-	font-size: 16px;
-	line-height: 22px;
-}
-#bloc-57 p{
-	font-size: 16px;
-	line-height: 22px;
-}
-#bloc-58 p{
-	font-size: 16px;
-}
-#bloc-59 p{
-	font-size: 16px;
+#bloc-54 h3{
+	font-size: 18px;
+	line-height: 24px;
 }
 #bloc-60 p{
 	font-size: 16px;
 }
 #bloc-61 p{
 	font-size: 16px;
+	line-height: 22px;
 }
-#bloc-63 h3{
+#bloc-62 p{
+	font-size: 16px;
+	line-height: 22px;
+}
+#bloc-63 p{
+	font-size: 16px;
+}
+#bloc-64 p{
+	font-size: 16px;
+}
+#bloc-65 p{
+	font-size: 16px;
+}
+#bloc-66 p{
+	font-size: 16px;
+}
+#bloc-68 h3{
 	font-size: 17px;
 }
-#bloc-63 a{
+#bloc-68 a{
 	font-size: 17px;
 }
 
@@ -983,11 +1014,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-rich-electric-blue{
 	background-color:#00A7D6;
 }
-.bgc-rich-electric-blue-2{
-	background-color:#00A7D6;
-}
 .bgc-anti-flash-white{
 	background-color:#F0F0F0;
+}
+.bgc-rich-electric-blue-2{
+	background-color:#00A7D6;
 }
 .bgc-onyx{
 	background-color:#101010;
@@ -1006,6 +1037,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-rich-electric-blue-2{
 	color:#00A7D6!important;
 }
+.tc-rich-electric-blue-3{
+	color:#00A7D6!important;
+}
 .tc-anti-flash-white{
 	color:#F0F0F0!important;
 }
@@ -1019,6 +1053,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background:#0086ab;
 	color:#FFFFFF!important;
 }
+.btn-rich-electric-blue-2{
+	background:#00A7D6;
+	color:#FFFFFF!important;
+}
+.btn-rich-electric-blue-2:hover{
+	background:#0086ab;
+	color:#FFFFFF!important;
+}
 .btn-onyx{
 	background:#101010;
 	color:#FFFFFF!important;
@@ -1027,11 +1069,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background:#0d0d0d;
 	color:#FFFFFF!important;
 }
-.btn-rich-electric-blue-2{
+.btn-rich-electric-blue-3{
 	background:#00A7D6;
 	color:#FFFFFF!important;
 }
-.btn-rich-electric-blue-2:hover{
+.btn-rich-electric-blue-3:hover{
 	background:#0086ab;
 	color:#FFFFFF!important;
 }
