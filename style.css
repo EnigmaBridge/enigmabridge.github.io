@@ -96,6 +96,22 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	color: rgba(255,255,255,1);
 }
 
+/* = Full Width Blocs 
+-------------------------------------------------------------- */
+
+.full-width-bloc{
+	padding-left:0;
+	padding-right:0;
+}
+.full-width-bloc .container{
+	width:100%;
+	max-width:100%!important;
+}
+.full-width-bloc .carousel img{
+	width:100%;
+	height:auto;
+}
+
 
 /* Group Styles */
 
@@ -256,9 +272,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
-#bloc-1 h2{
-	line-height: 60px;
-	font-size: 30px;
+#bloc-1 h1{
+	font-size: 40px;
 }
 #bloc-1 p{
 	font-size: 18px;
@@ -281,17 +296,11 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-5 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-6 h2{
-	font-size: 17px;
-}
-#bloc-6 a{
-	font-size: 17px;
-}
-#bloc-7 p{
+#bloc-6 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-8 h3{
-	font-size: 17px;
+#bloc-8 h2{
+	font-size: 40px;
 }
 #bloc-8 p{
 	font-size: 16.000000953674316px;
@@ -983,11 +992,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-rich-electric-blue{
 	background-color:#00A7D6;
 }
-.bgc-rich-electric-blue-2{
-	background-color:#00A7D6;
-}
 .bgc-anti-flash-white{
 	background-color:#F0F0F0;
+}
+.bgc-rich-electric-blue-2{
+	background-color:#00A7D6;
 }
 .bgc-onyx{
 	background-color:#101010;
@@ -1004,6 +1013,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#ffffff!important;
 }
 .tc-rich-electric-blue-2{
+	color:#00A7D6!important;
+}
+.tc-rich-electric-blue-3{
 	color:#00A7D6!important;
 }
 .tc-anti-flash-white{
