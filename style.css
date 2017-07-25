@@ -470,21 +470,33 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 16px;
 }
 #bloc-43 h2{
-	font-size: 24px;
+	font-size: 30px;
 	line-height: 24px;
 }
 #bloc-43 h3{
-	font-size: 22px;
+	font-size: 24px;
+}
+#bloc-43 p{
+	font-size: 16.000000953674316px;
+}
+#bloc-44 p{
+	font-size: 16.000000953674316px;
+}
+#bloc-45 p{
+	font-size: 18.000000953674316px;
 }
 #bloc-45 h2{
 	font-size: 22px;
 	line-height: 28px;
 }
 #bloc-46 h3{
-	font-size: 18px;
+	font-size: 24px;
+}
+#bloc-46 p{
+	font-size: 16.000000953674316px;
 }
 #bloc-47 h3{
-	font-size: 18px;
+	font-size: 24px;
 	line-height: 26px;
 }
 #bloc-49 h3{
@@ -498,6 +510,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-54 h3{
 	font-size: 18px;
 	line-height: 24px;
+}
+#bloc-55 p{
+	font-size: 16.000000953674316px;
 }
 #bloc-60 p{
 	font-size: 16px;
@@ -522,10 +537,19 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-66 p{
 	font-size: 16px;
 }
-#bloc-68 h3{
+#bloc-68 p{
+	font-size: 18.000000953674316px;
+}
+#bloc-69 p{
+	font-size: 18px;
+}
+#bloc-69 h3{
+	font-size: 26px;
+}
+#bloc-71 h3{
 	font-size: 17px;
 }
-#bloc-68 a{
+#bloc-71 a{
 	font-size: 17px;
 }
 
@@ -1002,6 +1026,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-bottom:40px;
 	height:60px;
 }
+.valley-hero-text-s{
+	font-size:60px;
+}
+.valley-hero-text-sub-s{
+	font-size:34px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1043,6 +1073,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-anti-flash-white{
 	color:#F0F0F0!important;
 }
+.bgc-{
+	background-color:#000000;
+}
 /* Button colour styles */
 
 .btn-rich-electric-blue{
@@ -1083,6 +1116,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#00A7D6!important;
 }
 .ltc-rich-electric-blue:hover{
+	color:#0086ab!important;
+}
+.ltc-rich-electric-blue-2{
+	color:#00A7D6!important;
+}
+.ltc-rich-electric-blue-2:hover{
 	color:#0086ab!important;
 }
 .ltc-white{
