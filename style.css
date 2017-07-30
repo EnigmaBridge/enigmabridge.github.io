@@ -285,6 +285,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-2 p{
 	font-size: 18px;
 }
+#bloc-2 h5{
+	font-size: 20.000001907348633px;
+}
 #bloc-3 h3{
 	font-size: 22px;
 }
@@ -540,16 +543,34 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-68 p{
 	font-size: 18.000000953674316px;
 }
-#bloc-69 p{
+#bloc-70 p{
 	font-size: 18px;
 }
-#bloc-69 h3{
-	font-size: 26px;
+#bloc-72 p{
+	font-size: 16px;
 }
-#bloc-71 h3{
+#bloc-73 p{
+	font-size: 16px;
+}
+#bloc-74 p{
+	font-size: 16px;
+}
+#bloc-75 p{
+	font-size: 16.000000953674316px;
+}
+#bloc-76 p{
+	font-size: 18.000000953674316px;
+}
+#bloc-78 p{
+	font-size: 20.000000953674316px;
+}
+#bloc-80 p{
+	font-size: 16.000000953674316px;
+}
+#bloc-82 h3{
 	font-size: 17px;
 }
-#bloc-71 a{
+#bloc-82 a{
 	font-size: 17px;
 }
 
@@ -1050,6 +1071,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-rich-electric-blue-2{
 	background-color:#00A7D6;
 }
+.bgc-red{
+	background-color:#FF0000;
+}
 .bgc-onyx{
 	background-color:#101010;
 }
@@ -1072,9 +1096,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-anti-flash-white{
 	color:#F0F0F0!important;
-}
-.bgc-{
-	background-color:#000000;
 }
 /* Button colour styles */
 
@@ -1188,6 +1209,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-cloudSpaces{
 	background-image:url("img/cloudSpaces.jpg");
+}
+.bg-mpc-one-secure{
+	background-image:url('img/mpc-one_secure.png');
 }
 
 
