@@ -472,25 +472,24 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-42 p{
 	font-size: 16px;
 }
-#bloc-43 h2{
-	font-size: 30px;
-	line-height: 24px;
-}
-#bloc-43 h3{
-	font-size: 24px;
-}
 #bloc-43 p{
-	font-size: 16.000000953674316px;
+	font-size: 20.000000953674316px;
+	line-height: 32px;
 }
 #bloc-44 p{
-	font-size: 16.000000953674316px;
+	font-size: 18px;
+}
+#bloc-45 h6{
+	line-height: 14px;
+	font-size: 14px;
 }
 #bloc-45 p{
-	font-size: 18.000000953674316px;
+	font-size: 16px;
+	line-height: 24px;
 }
-#bloc-45 h2{
-	font-size: 22px;
-	line-height: 28px;
+#bloc-46 h2{
+	font-size: 30px;
+	line-height: 24px;
 }
 #bloc-46 h3{
 	font-size: 24px;
@@ -498,79 +497,95 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-46 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-47 h3{
+#bloc-47 p{
+	font-size: 16.000000953674316px;
+}
+#bloc-48 p{
+	font-size: 18.000000953674316px;
+}
+#bloc-48 h2{
+	font-size: 22px;
+	line-height: 28px;
+}
+#bloc-49 h3{
+	font-size: 24px;
+}
+#bloc-49 p{
+	font-size: 16.000000953674316px;
+}
+#bloc-50 h3{
 	font-size: 24px;
 	line-height: 26px;
 }
-#bloc-49 h3{
+#bloc-52 h3{
 	font-size: 16px;
 	line-height: 26px;
 }
-#bloc-53 h3{
+#bloc-56 h3{
 	font-size: 18px;
 	line-height: 24px;
 }
-#bloc-54 h3{
+#bloc-57 h3{
 	font-size: 18px;
 	line-height: 24px;
 }
-#bloc-55 p{
+#bloc-58 p{
 	font-size: 16.000000953674316px;
-}
-#bloc-60 p{
-	font-size: 16px;
-}
-#bloc-61 p{
-	font-size: 16px;
-	line-height: 22px;
-}
-#bloc-62 p{
-	font-size: 16px;
-	line-height: 22px;
 }
 #bloc-63 p{
 	font-size: 16px;
 }
 #bloc-64 p{
 	font-size: 16px;
+	line-height: 22px;
 }
 #bloc-65 p{
 	font-size: 16px;
+	line-height: 22px;
 }
 #bloc-66 p{
 	font-size: 16px;
 }
-#bloc-68 p{
-	font-size: 18.000000953674316px;
-}
-#bloc-70 p{
-	font-size: 18px;
-}
-#bloc-72 p{
+#bloc-67 p{
 	font-size: 16px;
+}
+#bloc-68 p{
+	font-size: 16px;
+}
+#bloc-69 p{
+	font-size: 16px;
+}
+#bloc-71 p{
+	font-size: 18.000000953674316px;
 }
 #bloc-73 p{
-	font-size: 16px;
-}
-#bloc-74 p{
-	font-size: 16px;
+	font-size: 18px;
 }
 #bloc-75 p{
-	font-size: 16.000000953674316px;
+	font-size: 16px;
 }
 #bloc-76 p{
-	font-size: 18.000000953674316px;
+	font-size: 16px;
+}
+#bloc-77 p{
+	font-size: 16px;
 }
 #bloc-78 p{
-	font-size: 20.000000953674316px;
-}
-#bloc-80 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-82 h3{
+#bloc-79 p{
+	font-size: 18.000000953674316px;
+}
+#bloc-81 p{
+	font-size: 20.000000953674316px;
+}
+#bloc-83 p{
+	font-size: 16.000000953674316px;
+}
+#bloc-85 h3{
 	font-size: 17px;
 }
-#bloc-82 a{
+#bloc-85 a{
 	font-size: 17px;
 }
 
@@ -1071,9 +1086,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-rich-electric-blue-2{
 	background-color:#00A7D6;
 }
-.bgc-red{
-	background-color:#FF0000;
-}
 .bgc-onyx{
 	background-color:#101010;
 }
@@ -1211,7 +1223,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/cloudSpaces.jpg");
 }
 .bg-mpc-one-secure{
-	background-image:url('img/mpc-one_secure.png');
+	background-image:url("img/mpc-one_secure.png");
 }
 
 
