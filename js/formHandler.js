@@ -40,16 +40,24 @@ $(function()
 		    		cache: false,
 		    		success: function() // Success
 		 			{  
-						$form.append("<div id='form-alert'><div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>"+$form.attr('success-msg')+"</strong></div></div>");		
+						if($form.is('[success-msg]')) // Show Success Message
+						{
+							$form.append("<div id='form-alert'><div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>"+$form.attr('success-msg')+"</strong></div></div>");
+						}
+						else // Re-Direct
+						{
+							window.location.replace($form.attr('success-url'));
+						}	
+						
+						$form.trigger("reset"); // Clear Form	
 		 	   		},
 			   		error: function() // Fail
 			   		{
-						$form.append("<div id='form-alert'><div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>"+$form.attr('fail-msg')+"</strong></div></div>");	
+						if($('#form-alert').length == 0)
+						{
+							$form.append("<div id='form-alert'><div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>"+$form.attr('fail-msg')+"</strong></div></div>");
+						}	
 			   		},
-					complete: function() // Clear
-					{
-						$form.trigger("reset");
-					},
 		   		});
 			}
          },
