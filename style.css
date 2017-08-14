@@ -11,9 +11,8 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+a,button{transition: all .3s ease-in-out;outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 a:hover{text-decoration: none; cursor:pointer;}
-
-a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 
 #page-loading-blocs-notifaction{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;}
 
@@ -117,9 +116,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 .bloc-group{
 	display:flex;
-}
-.bloc-group .bloc{
-	flex: 1;
 }
 .bloc-tile-2{
 	width:50%;
@@ -430,7 +426,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-33 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-34 a{
+#bloc-34 .navbar-brand{
 	font-size: 17px;
 }
 #bloc-34 h1{
@@ -440,6 +436,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-34 h3{
 	font-size: 20px;
 	line-height: 24px;
+}
+#bloc-34 a{
+	font-size: 17px;
 }
 #bloc-34 img{
 	font-size: 30px;
@@ -480,8 +479,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 18px;
 }
 #bloc-45 h6{
-	line-height: 14px;
 	font-size: 14px;
+	line-height: 14px;
 }
 #bloc-45 p{
 	font-size: 16px;
@@ -650,6 +649,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 .nav-invert .navbar-header, .nav-invert .navbar-brand{
 	float:right;
+	position:relative;
+	z-index:2;
 }
 @media (min-width: 768px){
 	.site-navigation{
@@ -792,10 +793,12 @@ button{
 }
 .a-block{
 	width:100%;
-	text-align: left;
+	text-align:left;
 }
-.btn .caret{
-	margin:0 0 0 5px}.dropdown a .caret{
+.text-center .a-block{
+	text-align:center;
+}
+.dropdown a .caret{
 	margin:0 0 0 5px}.btn-dropdown .dropdown-menu .dropdown{
 	padding: 3px 20px;
 }
@@ -1092,6 +1095,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-onyx{
 	background-color:#101010;
 }
+
 /* Text colour styles */
 
 .tc-onyx{
@@ -1112,6 +1116,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-anti-flash-white{
 	color:#F0F0F0!important;
 }
+
 /* Button colour styles */
 
 .btn-rich-electric-blue{
@@ -1146,6 +1151,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background:#0086ab;
 	color:#FFFFFF!important;
 }
+
 /* Link colour styles */
 
 .ltc-rich-electric-blue{
@@ -1166,6 +1172,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .ltc-white:hover{
 	color:#ffffff!important;
 }
+
 /* Icon colour styles */
 
 .icon-white{
@@ -1254,7 +1261,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {.b-parallax{background-attachment:scroll;}}
-@media (max-width: 768px)
+@media (max-width: 991px)
 {
     .container{width:100%;}
     .b-parallax{background-attachment:scroll;}
@@ -1349,12 +1356,19 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     .nav-invert .navbar-toggle{
         float:left; 
     }
+    .bloc{
+        padding-left: 0; 
+        padding-right: 0;
+    }
     .bloc-xxl,.bloc-xl,.bloc-lg{
         padding: 40px 0;
     }
     .bloc-sm,.bloc-md{
         padding-left: 0; 
         padding-right: 0;
+    }
+    .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
+        padding-left:0;padding-right:0;
     }
     .a-block{
         padding:0 10px;
@@ -1404,11 +1418,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     }
 }
 
-@media (max-width: 768px){
-	.bloc-group-text-vc, .mobile .bloc-group-text-vc{
+@media (max-width: 991px){
+	.bloc-group-text-vc{
 	margin-top:0%;
 }
-.hero-text-vc, .mobile .hero-text-vc{
+.hero-text-vc{
 	margin-top:10%;
 }
  div[class^="col-"], div[class*=" col-"]{
@@ -1421,7 +1435,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 }
 /* Drop Down Navigation */
-@media (min-width: 767px) and (max-width: 768px){
+@media (min-width: 767px) and (max-width: 991px){
 	
 .mini-nav .special-dropdown-nav .site-navigation{
 	display: block;
@@ -1454,7 +1468,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color: rgba(0,0,0,.6)!important;
 }
  }
-@media (max-width: 420px){
+@media (max-width: 767px){
 	.lake-hero-text{
 	font-size:38px;
 }

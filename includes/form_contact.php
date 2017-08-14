@@ -12,7 +12,7 @@
 	$to = 'enigmabridgecomsupport@enigmabridge.freshdesk.com'; // Email submissions are sent to this email
 
 	// Create email	
-	$email_subject = "Message from enigmabridge.com.";
+	$email_subject = "Message from a Blocs website.";
 	$email_body = "You have received a new message. \n\n".
 				  "Contact_Name: $contact_name \nContact_Email: $contact_email \nContact_Message: $contact_message \nSubscriptionrequest: $subscriptionrequest \n";
 	$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
