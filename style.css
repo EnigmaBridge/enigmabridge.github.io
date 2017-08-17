@@ -309,35 +309,38 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 16.000000953674316px;
 }
 #bloc-9 p{
+	font-size: 18px;
+}
+#bloc-10 p{
 	font-size: 16px;
 }
-#bloc-11 h1{
+#bloc-12 h1{
 	font-size: 30px;
 }
-#bloc-12 h3{
+#bloc-13 h3{
 	font-size: 20px;
 }
-#bloc-12 p{
+#bloc-13 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-13 h1{
+#bloc-14 h1{
 	font-size: 30px;
 }
-#bloc-14 h3{
+#bloc-15 h3{
 	font-size: 20px;
 }
-#bloc-14 p{
+#bloc-15 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-16 h3{
+#bloc-17 h3{
 	font-size: 24px;
 	line-height: 26px;
 }
-#bloc-16 p{
+#bloc-17 p{
 	font-size: 16.000000953674316px;
 	line-height: 20px;
 }
-#bloc-16 a{
+#bloc-17 a{
 	font-size: 13.000000953674316px;
 }
 #usecases h3{
@@ -362,52 +365,45 @@ a:hover{text-decoration: none; cursor:pointer;}
 #team p{
 	font-size: 17.000000953674316px;
 }
-#bloc-21 h2{
+#bloc-22 h2{
 	font-size: 17px;
 }
-#bloc-21 h4{
+#bloc-22 h4{
 	font-size: 16px;
 }
 #form-contact-us h4{
 	font-size: 17px;
 }
-#bloc-24 h3{
-	font-size: 17px;
-}
-#bloc-24 p{
-	font-size: 13.000000953674316px;
-}
 #bloc-25 h3{
 	font-size: 17px;
 }
 #bloc-25 p{
-	line-height: 20px;
-	font-size: 13px;
+	font-size: 13.000000953674316px;
 }
 #bloc-26 h3{
 	font-size: 17px;
 }
 #bloc-26 p{
+	line-height: 20px;
+	font-size: 13px;
+}
+#bloc-27 h3{
+	font-size: 17px;
+}
+#bloc-27 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-27 h1{
+#bloc-28 h1{
 	font-size: 60px;
 	line-height: 70px;
 }
-#bloc-27 h3{
+#bloc-28 h3{
 	font-size: 30px;
 }
-#bloc-28 h3{
+#bloc-29 h3{
 	font-size: 17px;
 }
-#bloc-28 p{
-	line-height: 25px;
-	font-size: 13px;
-}
-#bloc-31 h3{
-	font-size: 17px;
-}
-#bloc-31 p{
+#bloc-29 p{
 	line-height: 25px;
 	font-size: 13px;
 }
@@ -415,55 +411,59 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 17px;
 }
 #bloc-32 p{
-	font-size: 13px;
-}
-#bloc-32 a{
+	line-height: 25px;
 	font-size: 13px;
 }
 #bloc-33 h3{
 	font-size: 17px;
 }
 #bloc-33 p{
-	font-size: 13.000000953674316px;
+	font-size: 13px;
 }
-#bloc-34 .navbar-brand{
+#bloc-33 a{
+	font-size: 13px;
+}
+#bloc-34 h3{
 	font-size: 17px;
 }
-#bloc-34 h1{
+#bloc-34 p{
+	font-size: 13.000000953674316px;
+}
+#bloc-35 .navbar-brand{
+	font-size: 17px;
+}
+#bloc-35 h1{
 	line-height: 48px;
 	font-size: 30px;
 }
-#bloc-34 h3{
+#bloc-35 h3{
 	font-size: 20px;
 	line-height: 24px;
 }
-#bloc-34 a{
+#bloc-35 a{
 	font-size: 17px;
 }
-#bloc-34 img{
+#bloc-35 img{
 	font-size: 30px;
 }
-#bloc-35 h1{
+#bloc-36 h1{
 	font-size: 30px;
 }
-#bloc-35 p{
+#bloc-36 p{
 	line-height: 20px;
 	font-size: 16.000000953674316px;
 }
-#bloc-36 p{
+#bloc-37 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-37 h1{
+#bloc-38 h1{
 	font-size: 40px;
 }
-#bloc-39 p{
+#bloc-40 p{
 	font-size: 22px;
 }
-#bloc-40 h3{
+#bloc-41 h3{
 	line-height: 24px;
-}
-#bloc-40 p{
-	font-size: 16px;
 }
 #bloc-41 p{
 	font-size: 16px;
@@ -472,71 +472,70 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 16px;
 }
 #bloc-43 p{
+	font-size: 16px;
+}
+#bloc-44 p{
 	font-size: 20.000000953674316px;
 	line-height: 32px;
 }
-#bloc-44 p{
+#bloc-45 p{
 	font-size: 18px;
 }
-#bloc-45 h6{
+#bloc-46 h6{
 	font-size: 14px;
 	line-height: 14px;
 }
-#bloc-45 p{
+#bloc-46 p{
 	font-size: 16px;
 	line-height: 24px;
 }
-#bloc-46 h2{
+#bloc-47 h2{
 	font-size: 30px;
 	line-height: 24px;
 }
-#bloc-46 h3{
+#bloc-47 h3{
 	font-size: 24px;
-}
-#bloc-46 p{
-	font-size: 16.000000953674316px;
 }
 #bloc-47 p{
 	font-size: 16.000000953674316px;
 }
 #bloc-48 p{
+	font-size: 16.000000953674316px;
+}
+#bloc-49 p{
 	font-size: 18.000000953674316px;
 }
-#bloc-48 h2{
+#bloc-49 h2{
 	font-size: 22px;
 	line-height: 28px;
 }
-#bloc-49 h3{
-	font-size: 24px;
-}
-#bloc-49 p{
-	font-size: 16.000000953674316px;
-}
 #bloc-50 h3{
 	font-size: 24px;
+}
+#bloc-50 p{
+	font-size: 16.000000953674316px;
+}
+#bloc-51 h3{
+	font-size: 24px;
 	line-height: 26px;
 }
-#bloc-52 h3{
+#bloc-53 h3{
 	font-size: 16px;
 	line-height: 26px;
-}
-#bloc-56 h3{
-	font-size: 18px;
-	line-height: 24px;
 }
 #bloc-57 h3{
 	font-size: 18px;
 	line-height: 24px;
 }
-#bloc-58 p{
-	font-size: 16.000000953674316px;
+#bloc-58 h3{
+	font-size: 18px;
+	line-height: 24px;
 }
-#bloc-63 p{
-	font-size: 16px;
+#bloc-59 p{
+	font-size: 16.000000953674316px;
 }
 #bloc-64 p{
 	font-size: 16px;
-	line-height: 22px;
 }
 #bloc-65 p{
 	font-size: 16px;
@@ -544,6 +543,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 #bloc-66 p{
 	font-size: 16px;
+	line-height: 22px;
 }
 #bloc-67 p{
 	font-size: 16px;
@@ -554,17 +554,17 @@ a:hover{text-decoration: none; cursor:pointer;}
 #bloc-69 p{
 	font-size: 16px;
 }
-#bloc-71 p{
+#bloc-70 p{
+	font-size: 16px;
+}
+#bloc-72 p{
 	font-size: 18.000000953674316px;
 }
-#bloc-73 p{
+#bloc-74 p{
 	font-size: 18px;
 }
-#bloc-73 h2{
+#bloc-74 h2{
 	font-size: 24px;
-}
-#bloc-75 p{
-	font-size: 16px;
 }
 #bloc-76 p{
 	font-size: 16px;
@@ -573,21 +573,24 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 16px;
 }
 #bloc-78 p{
-	font-size: 16.000000953674316px;
+	font-size: 16px;
 }
 #bloc-79 p{
-	font-size: 18.000000953674316px;
-}
-#bloc-81 p{
-	font-size: 20.000000953674316px;
-}
-#bloc-83 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-85 h3{
+#bloc-80 p{
+	font-size: 18.000000953674316px;
+}
+#bloc-82 p{
+	font-size: 20.000000953674316px;
+}
+#bloc-84 p{
+	font-size: 16.000000953674316px;
+}
+#bloc-86 h3{
 	font-size: 17px;
 }
-#bloc-85 a{
+#bloc-86 a{
 	font-size: 17px;
 }
 
@@ -1165,6 +1168,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-rich-electric-blue-2:hover{
 	color:#0086ab!important;
+}
+.ltc-onyx{
+	color:#101010!important;
+}
+.ltc-onyx:hover{
+	color:#0d0d0d!important;
 }
 .ltc-white{
 	color:#ffffff!important;
