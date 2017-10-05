@@ -278,29 +278,26 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 18px;
 	line-height: 28px;
 }
-#bloc-2 p{
-	font-size: 18px;
-}
-#bloc-2 h5{
-	font-size: 20.000001907348633px;
-}
-#bloc-3 h3{
+#bloc-2 h3{
 	font-size: 22px;
 }
-#bloc-3 p{
+#bloc-2 p{
 	font-size: 16.000000953674316px;
 }
 #control p{
 	font-size: 16px;
 }
-#bloc-5 h3{
+#bloc-4 h3{
 	font-size: 17px;
+}
+#bloc-4 p{
+	font-size: 16.000000953674316px;
 }
 #bloc-5 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-6 p{
-	font-size: 16.000000953674316px;
+#bloc-6 h3{
+	font-size: 24px;
 }
 #bloc-8 h2{
 	font-size: 40px;
@@ -974,6 +971,11 @@ iframe{
 	background-image:url("img/Apple-Macbook-Space-Grey.png");
 }
 
+/* Hide Object */
+.object-hidden{
+	display:none;
+}
+
 /* = Custom Styling
 -------------------------------------------------------------- */
 
@@ -1092,6 +1094,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-rich-electric-blue-2{
 	background-color:#00A7D6;
 }
+.bgc-rich-electric-blue-3{
+	background-color:#00A7D6;
+}
 .bgc-onyx{
 	background-color:#101010;
 }
@@ -1127,20 +1132,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background:#0086ab;
 	color:#FFFFFF!important;
 }
-.btn-rich-electric-blue-2{
-	background:#00A7D6;
-	color:#FFFFFF!important;
-}
-.btn-rich-electric-blue-2:hover{
-	background:#0086ab;
-	color:#FFFFFF!important;
-}
 .btn-onyx{
 	background:#101010;
 	color:#FFFFFF!important;
 }
 .btn-onyx:hover{
 	background:#0d0d0d;
+	color:#FFFFFF!important;
+}
+.btn-rich-electric-blue-2{
+	background:#00A7D6;
+	color:#FFFFFF!important;
+}
+.btn-rich-electric-blue-2:hover{
+	background:#0086ab;
 	color:#FFFFFF!important;
 }
 .btn-rich-electric-blue-3{
