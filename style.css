@@ -278,29 +278,26 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 18px;
 	line-height: 28px;
 }
-#bloc-2 p{
-	font-size: 18px;
-}
-#bloc-2 h5{
-	font-size: 20.000001907348633px;
-}
-#bloc-3 h3{
+#bloc-2 h3{
 	font-size: 22px;
 }
-#bloc-3 p{
+#bloc-2 p{
 	font-size: 16.000000953674316px;
 }
 #control p{
 	font-size: 16px;
 }
-#bloc-5 h3{
+#bloc-4 h3{
 	font-size: 17px;
+}
+#bloc-4 p{
+	font-size: 16.000000953674316px;
 }
 #bloc-5 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-6 p{
-	font-size: 16.000000953674316px;
+#bloc-6 h3{
+	font-size: 24px;
 }
 #bloc-8 h2{
 	font-size: 40px;
@@ -309,38 +306,35 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 16.000000953674316px;
 }
 #bloc-9 p{
-	font-size: 18px;
-}
-#bloc-10 p{
 	font-size: 16px;
 }
-#bloc-12 h1{
+#bloc-11 h1{
 	font-size: 30px;
 }
-#bloc-13 h3{
+#bloc-12 h3{
 	font-size: 20px;
 }
-#bloc-13 p{
+#bloc-12 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-14 h1{
+#bloc-13 h1{
 	font-size: 30px;
 }
-#bloc-15 h3{
+#bloc-14 h3{
 	font-size: 20px;
 }
-#bloc-15 p{
+#bloc-14 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-17 h3{
+#bloc-16 h3{
 	font-size: 24px;
 	line-height: 26px;
 }
-#bloc-17 p{
+#bloc-16 p{
 	font-size: 16.000000953674316px;
 	line-height: 20px;
 }
-#bloc-17 a{
+#bloc-16 a{
 	font-size: 13.000000953674316px;
 }
 #usecases h3{
@@ -365,45 +359,52 @@ a:hover{text-decoration: none; cursor:pointer;}
 #team p{
 	font-size: 17.000000953674316px;
 }
-#bloc-22 h2{
+#bloc-21 h2{
 	font-size: 17px;
 }
-#bloc-22 h4{
+#bloc-21 h4{
 	font-size: 16px;
 }
 #form-contact-us h4{
 	font-size: 17px;
 }
+#bloc-24 h3{
+	font-size: 17px;
+}
+#bloc-24 p{
+	font-size: 13.000000953674316px;
+}
 #bloc-25 h3{
 	font-size: 17px;
 }
 #bloc-25 p{
-	font-size: 13.000000953674316px;
+	line-height: 20px;
+	font-size: 13px;
 }
 #bloc-26 h3{
 	font-size: 17px;
 }
 #bloc-26 p{
-	line-height: 20px;
-	font-size: 13px;
-}
-#bloc-27 h3{
-	font-size: 17px;
-}
-#bloc-27 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-28 h1{
+#bloc-27 h1{
 	font-size: 60px;
 	line-height: 70px;
 }
-#bloc-28 h3{
+#bloc-27 h3{
 	font-size: 30px;
 }
-#bloc-29 h3{
+#bloc-28 h3{
 	font-size: 17px;
 }
-#bloc-29 p{
+#bloc-28 p{
+	line-height: 25px;
+	font-size: 13px;
+}
+#bloc-31 h3{
+	font-size: 17px;
+}
+#bloc-31 p{
 	line-height: 25px;
 	font-size: 13px;
 }
@@ -411,59 +412,55 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 17px;
 }
 #bloc-32 p{
-	line-height: 25px;
+	font-size: 13px;
+}
+#bloc-32 a{
 	font-size: 13px;
 }
 #bloc-33 h3{
 	font-size: 17px;
 }
 #bloc-33 p{
-	font-size: 13px;
-}
-#bloc-33 a{
-	font-size: 13px;
-}
-#bloc-34 h3{
-	font-size: 17px;
-}
-#bloc-34 p{
 	font-size: 13.000000953674316px;
 }
-#bloc-35 .navbar-brand{
+#bloc-34 .navbar-brand{
 	font-size: 17px;
 }
-#bloc-35 h1{
+#bloc-34 h1{
 	line-height: 48px;
 	font-size: 30px;
 }
-#bloc-35 h3{
+#bloc-34 h3{
 	font-size: 20px;
 	line-height: 24px;
 }
-#bloc-35 a{
+#bloc-34 a{
 	font-size: 17px;
 }
-#bloc-35 img{
+#bloc-34 img{
 	font-size: 30px;
 }
-#bloc-36 h1{
+#bloc-35 h1{
 	font-size: 30px;
 }
-#bloc-36 p{
+#bloc-35 p{
 	line-height: 20px;
 	font-size: 16.000000953674316px;
 }
-#bloc-37 p{
+#bloc-36 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-38 h1{
+#bloc-37 h1{
 	font-size: 40px;
 }
-#bloc-40 p{
+#bloc-39 p{
 	font-size: 22px;
 }
-#bloc-41 h3{
+#bloc-40 h3{
 	line-height: 24px;
+}
+#bloc-40 p{
+	font-size: 16px;
 }
 #bloc-41 p{
 	font-size: 16px;
@@ -472,70 +469,71 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 16px;
 }
 #bloc-43 p{
-	font-size: 16px;
-}
-#bloc-44 p{
 	font-size: 20.000000953674316px;
 	line-height: 32px;
 }
-#bloc-45 p{
+#bloc-44 p{
 	font-size: 18px;
 }
-#bloc-46 h6{
+#bloc-45 h6{
 	font-size: 14px;
 	line-height: 14px;
 }
-#bloc-46 p{
+#bloc-45 p{
 	font-size: 16px;
 	line-height: 24px;
 }
-#bloc-47 h2{
+#bloc-46 h2{
 	font-size: 30px;
 	line-height: 24px;
 }
-#bloc-47 h3{
+#bloc-46 h3{
 	font-size: 24px;
+}
+#bloc-46 p{
+	font-size: 16.000000953674316px;
 }
 #bloc-47 p{
 	font-size: 16.000000953674316px;
 }
 #bloc-48 p{
-	font-size: 16.000000953674316px;
-}
-#bloc-49 p{
 	font-size: 18.000000953674316px;
 }
-#bloc-49 h2{
+#bloc-48 h2{
 	font-size: 22px;
 	line-height: 28px;
 }
-#bloc-50 h3{
+#bloc-49 h3{
 	font-size: 24px;
 }
-#bloc-50 p{
+#bloc-49 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-51 h3{
+#bloc-50 h3{
 	font-size: 24px;
 	line-height: 26px;
 }
-#bloc-53 h3{
+#bloc-52 h3{
 	font-size: 16px;
 	line-height: 26px;
+}
+#bloc-56 h3{
+	font-size: 18px;
+	line-height: 24px;
 }
 #bloc-57 h3{
 	font-size: 18px;
 	line-height: 24px;
 }
-#bloc-58 h3{
-	font-size: 18px;
-	line-height: 24px;
-}
-#bloc-59 p{
+#bloc-58 p{
 	font-size: 16.000000953674316px;
+}
+#bloc-63 p{
+	font-size: 16px;
 }
 #bloc-64 p{
 	font-size: 16px;
+	line-height: 22px;
 }
 #bloc-65 p{
 	font-size: 16px;
@@ -543,7 +541,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 #bloc-66 p{
 	font-size: 16px;
-	line-height: 22px;
 }
 #bloc-67 p{
 	font-size: 16px;
@@ -554,17 +551,17 @@ a:hover{text-decoration: none; cursor:pointer;}
 #bloc-69 p{
 	font-size: 16px;
 }
-#bloc-70 p{
-	font-size: 16px;
-}
-#bloc-72 p{
+#bloc-71 p{
 	font-size: 18.000000953674316px;
 }
-#bloc-74 p{
+#bloc-73 p{
 	font-size: 18px;
 }
-#bloc-74 h2{
+#bloc-73 h2{
 	font-size: 24px;
+}
+#bloc-75 p{
+	font-size: 16px;
 }
 #bloc-76 p{
 	font-size: 16px;
@@ -573,24 +570,21 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 16px;
 }
 #bloc-78 p{
-	font-size: 16px;
+	font-size: 16.000000953674316px;
 }
 #bloc-79 p{
-	font-size: 16.000000953674316px;
-}
-#bloc-80 p{
 	font-size: 18.000000953674316px;
 }
-#bloc-82 p{
+#bloc-81 p{
 	font-size: 20.000000953674316px;
 }
-#bloc-84 p{
+#bloc-83 p{
 	font-size: 16.000000953674316px;
 }
-#bloc-86 h3{
+#bloc-85 h3{
 	font-size: 17px;
 }
-#bloc-86 a{
+#bloc-85 a{
 	font-size: 17px;
 }
 
@@ -977,6 +971,11 @@ iframe{
 	background-image:url("img/Apple-Macbook-Space-Grey.png");
 }
 
+/* Hide Object */
+.object-hidden{
+	display:none;
+}
+
 /* = Custom Styling
 -------------------------------------------------------------- */
 
@@ -1095,6 +1094,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-rich-electric-blue-2{
 	background-color:#00A7D6;
 }
+.bgc-rich-electric-blue-3{
+	background-color:#00A7D6;
+}
 .bgc-onyx{
 	background-color:#101010;
 }
@@ -1130,20 +1132,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background:#0086ab;
 	color:#FFFFFF!important;
 }
-.btn-rich-electric-blue-2{
-	background:#00A7D6;
-	color:#FFFFFF!important;
-}
-.btn-rich-electric-blue-2:hover{
-	background:#0086ab;
-	color:#FFFFFF!important;
-}
 .btn-onyx{
 	background:#101010;
 	color:#FFFFFF!important;
 }
 .btn-onyx:hover{
 	background:#0d0d0d;
+	color:#FFFFFF!important;
+}
+.btn-rich-electric-blue-2{
+	background:#00A7D6;
+	color:#FFFFFF!important;
+}
+.btn-rich-electric-blue-2:hover{
+	background:#0086ab;
 	color:#FFFFFF!important;
 }
 .btn-rich-electric-blue-3{
@@ -1168,12 +1170,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-rich-electric-blue-2:hover{
 	color:#0086ab!important;
-}
-.ltc-onyx{
-	color:#101010!important;
-}
-.ltc-onyx:hover{
-	color:#0d0d0d!important;
 }
 .ltc-white{
 	color:#ffffff!important;
